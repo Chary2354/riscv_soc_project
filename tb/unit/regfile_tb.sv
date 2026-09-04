@@ -34,8 +34,8 @@ module regfile_tb;
     always #5 clk = ~clk;
 
     initial begin
-     $dumpfile("regfile.vcd");
-     $dumpvars(0, regfile_tb);   
+        $dumpfile("regfile.vcd");
+        $dumpvars(0, regfile_tb);
 
         $display("=================================");
         $display(" Register File Test");
