@@ -2,19 +2,21 @@
 
 module interconnect_tb;
 
-    logic [31:0] address;
+    // 1. Replaced 'logic' with 'reg' for variables driven in the initial block
+    reg [31:0] address;
+    reg        mem_read;
+    reg        mem_write;
 
-    logic mem_read;
-    logic mem_write;
+    // 2. Replaced 'logic' with 'wire' for outputs coming out of the DUT
+    wire       ram_sel;
+    wire       uart_sel;
+    wire       spi_sel;
+    wire       i2c_sel;
+    wire       gpio_sel;
+    wire       timer_sel;
+    wire       accel_sel;
 
-    logic ram_sel;
-    logic uart_sel;
-    logic spi_sel;
-    logic i2c_sel;
-    logic gpio_sel;
-    logic timer_sel;
-    logic accel_sel;
-
+    // Device Under Test (DUT) Instantiation
     interconnect dut (
         .address(address),
         .mem_read(mem_read),
