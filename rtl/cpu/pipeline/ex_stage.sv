@@ -7,7 +7,7 @@ module ex_stage (
     input logic [3:0]  alu_op,
 
     output logic [31:0] alu_result,
-    output logic        store_data,
+    output logic [31:0] store_data,
     output logic        zero
 );
 
