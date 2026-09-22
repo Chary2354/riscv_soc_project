@@ -17,7 +17,7 @@ module interconnect_tb;
     wire       accel_sel;
 
     // Device Under Test (DUT) Instantiation
-    interconnect dut (
+    bus_interconnect dut (
         .address(address),
         .mem_read(mem_read),
         .mem_write(mem_write),

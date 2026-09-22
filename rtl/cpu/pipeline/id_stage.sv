@@ -29,6 +29,7 @@ module id_stage (
     output logic [1:0]  alu_op
 );
 
+    // Decode register addresses
     assign rs1 = instruction[19:15];
     assign rs2 = instruction[24:20];
     assign rd  = instruction[11:7];
@@ -37,13 +38,16 @@ module id_stage (
     regfile rf (
         .clk(clk),
         .rst(rst),
-        .rs1(rs1),
-        .rs2(rs2),
-        .rd(wb_rd),
-        .write_data(wb_write_data),
-        .reg_write(wb_reg_write),
+
+        .rs1_addr(rs1),
+        .rs2_addr(rs2),
+
         .rs1_data(rs1_data),
-        .rs2_data(rs2_data)
+        .rs2_data(rs2_data),
+
+        .rd_we(wb_reg_write),
+        .rd_addr(wb_rd),
+        .rd_data(wb_write_data)
     );
 
     // Immediate Generator
@@ -55,6 +59,7 @@ module id_stage (
     // Control Unit
     control_unit ctrl (
         .opcode(instruction[6:0]),
+
         .reg_write(reg_write),
         .mem_read(mem_read),
         .mem_write(mem_write),
@@ -62,6 +67,7 @@ module id_stage (
         .alu_src(alu_src),
         .branch(branch),
         .jump(jump),
+
         .alu_op(alu_op)
     );
 
