@@ -14,25 +14,22 @@ module regfile (
 );
 
     logic [31:0] regs [0:31];
-
     integer i;
 
-    // Reset and write operation
+    // Sequential Write Port
     always_ff @(posedge clk) begin
         if (rst) begin
             for (i = 0; i < 32; i = i + 1)
                 regs[i] <= 32'b0;
         end
         else begin
-            // x0 is read-only and must remain zero
-            if (rd_we && (rd_addr != 5'd0))
+            if (rd_we && (rd_addr != 5'd0)) begin
                 regs[rd_addr] <= rd_data;
-
-            regs[0] <= 32'b0;
+            end
         end
     end
 
-    // Combinational read ports
+    // Combinational Read Ports
     always_comb begin
         if (rs1_addr == 5'd0)
             rs1_data = 32'b0;

@@ -1,3 +1,5 @@
+`timescale 1ns/1ps
+
 module timer_tb;
 
     logic clk;
@@ -30,7 +32,7 @@ module timer_tb;
         #10;
         reset = 0;
 
-        // Set timer compare value
+        // Program timer
         #10;
         cs = 1;
         we = 1;
@@ -40,12 +42,11 @@ module timer_tb;
         cs = 0;
         we = 0;
 
-        #100;
+        // Wait for interrupt and check it immediately
+        wait (irq == 1'b1);
 
-        if (irq)
-            $display("TIMER TEST PASSED");
-        else
-            $display("TIMER TEST FAILED");
+        $display("TIMER INTERRUPT DETECTED");
+        $display("TIMER TEST PASSED");
 
         #10;
         $finish;

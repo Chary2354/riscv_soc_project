@@ -365,16 +365,12 @@ module pipelined_cpu (
     // WRITEBACK
     // =========================================================
 
-    wb_stage u_wb (
+        wb_stage u_wb (
         .alu_result (wb_alu_result),
         .memory_data(wb_read_data),
         .mem_to_reg (wb_mem_to_reg),
         .write_data (wb_write_data)
     );
-
-    // =========================================================
-    // DEBUG
-    // =========================================================
 
     assign debug_pc        = if_pc;
     assign debug_wb_data   = wb_write_data;
