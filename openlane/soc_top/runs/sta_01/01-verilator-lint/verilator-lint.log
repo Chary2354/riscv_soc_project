@@ -1,0 +1,101 @@
+%Warning-WIDTHEXPAND: /work/rtl/accelerator/mac_accelerator.sv:23:35: Operator ADD expects 64 bits on the RHS, but RHS's VARREF 'c' generates 32 bits.
+                                                                    : ... note: In instance 'soc_top.mac'
+   23 |                 result <= (a * b) + c;
+      |                                   ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.018
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /work/rtl/soc_top.sv:42:18: Signal is not used: 'debug_pc'
+                                                 : ... note: In instance 'soc_top'
+   42 |     logic [31:0] debug_pc;
+      |                  ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/soc_top.sv:43:18: Signal is not used: 'debug_wb_data'
+                                                 : ... note: In instance 'soc_top'
+   43 |     logic [31:0] debug_wb_data;
+      |                  ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/soc_top.sv:44:18: Signal is not used: 'debug_wb_rd'
+                                                 : ... note: In instance 'soc_top'
+   44 |     logic [4:0]  debug_wb_rd;
+      |                  ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/soc_top.sv:45:18: Signal is not used: 'debug_wb_reg_write'
+                                                 : ... note: In instance 'soc_top'
+   45 |     logic        debug_wb_reg_write;
+      |                  ^~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/soc_top.sv:96:18: Signal is not used: 'ram_ready'
+                                                 : ... note: In instance 'soc_top'
+   96 |     logic        ram_ready;
+      |                  ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/bus/interconnect.sv:2:24: Bits of signal are not used: 'address'[11:0]
+                                                         : ... note: In instance 'soc_top.bus'
+    2 |     input  wire [31:0] address,
+      |                        ^~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/cpu/pipeline/pipelined_cpu.sv:45:18: Signal is not used: 'id_pc_plus4'
+                                                                    : ... note: In instance 'soc_top.cpu'
+   45 |     logic [31:0] id_pc_plus4;
+      |                  ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/cpu/pipeline/pipelined_cpu.sv:124:18: Signal is not used: 'if_id_write'
+                                                                     : ... note: In instance 'soc_top.cpu'
+  124 |     logic        if_id_write;
+      |                  ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/cpu/pipeline/pipelined_cpu.sv:212:18: Signal is not used: 'ex_zero'
+                                                                     : ... note: In instance 'soc_top.cpu'
+  212 |     logic        ex_zero;
+      |                  ^~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/cpu/pipeline/pipelined_cpu.sv:349:17: Signal is not used: 'internal_mem_read_data'
+                                                                     : ... note: In instance 'soc_top.cpu'
+  349 |    logic [31:0] internal_mem_read_data;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/memory/memory_interface.sv:8:25: Bits of signal are not used: 'address'[31:10,1:0]
+                                                                : ... note: In instance 'soc_top.ram'
+    8 |     input  logic [31:0] address,
+      |                         ^~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/peripherals/gpio.sv:7:25: Bits of signal are not used: 'wdata'[31:8]
+                                                         : ... note: In instance 'soc_top.gpio_peripheral'
+    7 |     input  logic [31:0] wdata,
+      |                         ^~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/peripherals/i2c.sv:7:25: Bits of signal are not used: 'wdata'[31:8]
+                                                        : ... note: In instance 'soc_top.i2c_peripheral'
+    7 |     input  logic [31:0] wdata,
+      |                         ^~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/peripherals/i2c.sv:15:17: Bits of signal are not used: 'tx_data'[6:0]
+                                                         : ... note: In instance 'soc_top.i2c_peripheral'
+   15 |     logic [7:0] tx_data;
+      |                 ^~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/peripherals/spi.sv:7:25: Bits of signal are not used: 'wdata'[31:8]
+                                                        : ... note: In instance 'soc_top.spi_peripheral'
+    7 |     input  logic [31:0] wdata,
+      |                         ^~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/peripherals/spi.sv:12:25: Signal is not used: 'miso'
+                                                         : ... note: In instance 'soc_top.spi_peripheral'
+   12 |     input  logic        miso,
+      |                         ^~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/peripherals/spi.sv:16:17: Bits of signal are not used: 'tx_data'[6:0]
+                                                         : ... note: In instance 'soc_top.spi_peripheral'
+   16 |     logic [7:0] tx_data;
+      |                 ^~~~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/peripherals/uart.sv:7:25: Bits of signal are not used: 'wdata'[31:8]
+                                                         : ... note: In instance 'soc_top.uart_peripheral'
+    7 |     input  logic [31:0] wdata,
+      |                         ^~~~~
+%Warning-UNUSEDSIGNAL: /work/rtl/peripherals/uart.sv:11:25: Signal is not used: 'rx'
+                                                          : ... note: In instance 'soc_top.uart_peripheral'
+   11 |     input  logic        rx
+      |                         ^~
+%Warning-UNUSEDSIGNAL: /work/rtl/cpu/pipeline/id_stage.sv:6:24: Signal is not used: 'pc'
+                                                              : ... note: In instance 'soc_top.cpu.u_id'
+    6 |     input logic [31:0] pc,
+      |                        ^~
+%Warning-UNUSEDSIGNAL: /work/rtl/cpu/pipeline/mem_stage.sv:3:24: Signal is not used: 'rst'
+                                                               : ... note: In instance 'soc_top.cpu.u_mem'
+    3 |     input logic        rst,
+      |                        ^~~
+%Warning-UNUSEDSIGNAL: /work/rtl/cpu/pipeline/mem_stage.sv:8:24: Bits of signal are not used: 'address'[31:10,1:0]
+                                                               : ... note: In instance 'soc_top.cpu.u_mem'
+    8 |     input logic [31:0] address,
+      |                        ^~~~~~~
+%Warning-SYNCASYNCNET: /work/rtl/soc_top.sv:3:25: Signal flopped as both synchronous and async: 'rst'
+                       /work/rtl/soc_top.sv:226:13: ... Location of async usage
+  226 |         if (rst) begin
+      |             ^~~
+                       /work/rtl/cpu/pipeline/if_stage.sv:28:13: ... Location of sync usage
+   28 |         if (rst) begin
+      |             ^~~
