@@ -1,0 +1,6 @@
+%Error-ASSIGNIN: /work/rtl/cpu/pipeline/pipelined_cpu.sv:356:20: Assigning to input/const variable: 'mem_read_data'
+  356 |         .read_data(mem_read_data)
+      |                    ^~~~~~~~~~~~~
+                 ... For error description see https://verilator.org/warn/ASSIGNIN?v=5.018
+%Error: Exiting due to 1 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.

@@ -1,0 +1,5 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/work/openlane/soc_top/runs/synthesis_02/tmp/6ed7fc18d9b845808b182040cbecb1fc.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/work/openlane/soc_top/runs/synthesis_02/tmp/6ed7fc18d9b845808b182040cbecb1fc.bb.v"
