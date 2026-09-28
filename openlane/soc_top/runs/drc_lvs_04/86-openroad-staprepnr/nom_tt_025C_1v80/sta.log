@@ -1,0 +1,797 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading cell library for the 'nom_tt_025C_1v80' corner at '/root/.volare/volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading top-level netlist at '/work/openlane/soc_top/runs/drc_lvs_04/80-yosys-synthesis/soc_top.nl.v'…
+Linking design 'soc_top' from netlist…
+Reading design constraints file at '/nix/store/ss2cw3sxbrwwx9jl0rrppbw4kgcmgi2n-python3-3.11.9-env/lib/python3.11/site-packages/openlane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 2.0
+[INFO] Setting input delay to: 2.0
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+Reading top-level design parasitics for the 'nom_tt_025C_1v80' corner at '/work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef'…
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9564, instance clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9568, net clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9570, net clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9571, net clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9572, net clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9573, net clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9574, net clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9574, net clkbuf_1_0__f_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9575, net clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9575, net output1 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9579, net clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9581, net net70 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9584, instance soc_top_70 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9593, net net71 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9596, instance soc_top_71 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9606, net net72 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9609, instance soc_top_72 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9619, net net73 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9622, instance soc_top_73 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9632, net net74 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9635, instance soc_top_74 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9644, net net75 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9647, instance soc_top_75 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9657, net net76 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9660, instance soc_top_76 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9669, net net77 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9672, instance soc_top_77 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9685, instance output1 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9689, net output1 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9690, net clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9692, net output1 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9694, net net69 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9697, instance soc_top_69 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9707, net net79 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9710, instance soc_top_79 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9720, net net3 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9723, instance soc_top_3 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9733, net net13 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9736, instance soc_top_13 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9746, net net14 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9749, instance soc_top_14 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9758, net net15 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9761, instance soc_top_15 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9771, net net16 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9774, instance soc_top_16 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9784, net net17 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9787, instance soc_top_17 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9796, net net18 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9799, instance soc_top_18 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9809, net net19 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9812, instance soc_top_19 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9822, net net20 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9825, instance soc_top_20 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9835, net net21 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9838, instance soc_top_21 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9848, net net22 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9851, instance soc_top_22 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9861, net net4 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9864, instance soc_top_4 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9873, net net23 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9876, instance soc_top_23 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9886, net net24 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9889, instance soc_top_24 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9899, net net25 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9902, instance soc_top_25 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9912, net net26 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9915, instance soc_top_26 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9925, net net27 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9928, instance soc_top_27 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9939, net net28 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9942, instance soc_top_28 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9952, net net29 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9955, instance soc_top_29 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9965, net net30 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9968, instance soc_top_30 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9978, net net31 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9981, instance soc_top_31 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9991, net net32 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 9994, instance soc_top_32 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10004, net net5 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10007, instance soc_top_5 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10018, net net33 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10021, instance soc_top_33 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10031, net net34 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10034, instance soc_top_34 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10044, net net35 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10047, instance soc_top_35 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10057, net net36 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10060, instance soc_top_36 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10070, net net37 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10073, instance soc_top_37 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10083, net net38 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10086, instance soc_top_38 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10095, net net39 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10098, instance soc_top_39 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10108, net net40 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10111, instance soc_top_40 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10121, net net41 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10124, instance soc_top_41 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10134, net net42 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10137, instance soc_top_42 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10147, net net6 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10150, instance soc_top_6 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10159, net net43 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10162, instance soc_top_43 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10172, net net44 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10175, instance soc_top_44 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10185, net net45 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10188, instance soc_top_45 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10198, net net46 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10201, instance soc_top_46 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10211, net net47 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10214, instance soc_top_47 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10224, net net48 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10227, instance soc_top_48 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10237, net net49 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10240, instance soc_top_49 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10250, net net50 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10253, instance soc_top_50 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10263, net net51 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10266, instance soc_top_51 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10276, net net52 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10279, instance soc_top_52 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10289, net net7 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10292, instance soc_top_7 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10302, net net53 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10305, instance soc_top_53 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10317, net net54 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10320, instance soc_top_54 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10330, net net55 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10333, instance soc_top_55 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10343, net net56 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10346, instance soc_top_56 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10356, net net57 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10359, instance soc_top_57 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10369, net net58 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10372, instance soc_top_58 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10382, net net59 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10385, instance soc_top_59 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10395, net net60 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10398, instance soc_top_60 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10408, net net61 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10411, instance soc_top_61 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10421, net net62 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10424, instance soc_top_62 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10434, net net8 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10437, instance soc_top_8 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10447, net net63 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10450, instance soc_top_63 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10460, net net64 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10463, instance soc_top_64 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10474, net net65 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10477, instance soc_top_65 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10487, net net66 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10490, instance soc_top_66 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10500, net net9 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10503, instance soc_top_9 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10513, net net10 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10516, instance soc_top_10 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10526, net net11 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10529, instance soc_top_11 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10539, net net12 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10542, instance soc_top_12 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10552, net net67 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10555, instance soc_top_67 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10565, net net68 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10568, instance soc_top_68 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10581, instance output2 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10585, net output2 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10589, net output2 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10591, net net78 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10594, instance soc_top_78 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10604, net net80 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10607, instance soc_top_80 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10617, net clknet_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10619, instance clkbuf_1_1__f_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10620, instance clkbuf_1_0__f_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10621, instance clkbuf_0_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10637, net clknet_1_0__leaf_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10640, instance clkbuf_1_0__f_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10651, net clknet_1_1__leaf_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10654, instance clkbuf_1_1__f_clk not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10664, net net1 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10666, instance output1 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10678, net net2 not found.
+Warning: /work/openlane/soc_top/runs/drc_lvs_04/53-openroad-rcx/nom/soc_top.nom.spef line 10680, instance output2 not found.
+%OL_CREATE_REPORT min.rpt
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: clk (clock source 'clk')
+Endpoint: i2c_scl (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.150000    0.000000    0.000000   clock clk (rise edge)
+     2    0.005103    0.029744    0.018106    0.018106 ^ clk (in)
+                                                         clk (net)
+                      0.029744    0.000000    0.018106 ^ _78_/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.168853    0.189848    0.207954 ^ _78_/X (sky130_fd_sc_hd__buf_2)
+                                                         i2c_scl (net)
+                      0.168853    0.000000    0.207954 ^ i2c_scl (out)
+                                              0.207954   data arrival time
+
+                      0.150000    0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  0.250000    0.250000   clock uncertainty
+                                  0.000000    0.250000   clock reconvergence pessimism
+                                 -2.000000   -1.750000   output external delay
+                                             -1.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             -1.750000   data required time
+                                             -0.207954   data arrival time
+---------------------------------------------------------------------------------------------
+                                              1.957954   slack (MET)
+
+
+Startpoint: clk (clock source 'clk')
+Endpoint: spi_sclk (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.150000    0.000000    0.000000   clock clk (rise edge)
+     2    0.005103    0.029744    0.018106    0.018106 ^ clk (in)
+                                                         clk (net)
+                      0.029744    0.000000    0.018106 ^ _79_/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.168853    0.189848    0.207954 ^ _79_/X (sky130_fd_sc_hd__buf_2)
+                                                         spi_sclk (net)
+                      0.168853    0.000000    0.207954 ^ spi_sclk (out)
+                                              0.207954   data arrival time
+
+                      0.150000    0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  0.250000    0.250000   clock uncertainty
+                                  0.000000    0.250000   clock reconvergence pessimism
+                                 -2.000000   -1.750000   output external delay
+                                             -1.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             -1.750000   data required time
+                                             -0.207954   data arrival time
+---------------------------------------------------------------------------------------------
+                                              1.957954   slack (MET)
+
+
+
+%OL_END_REPORT
+%OL_CREATE_REPORT max.rpt
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: clk (clock source 'clk')
+Endpoint: i2c_scl (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.150000    5.000000    5.000000   clock clk (fall edge)
+     2    0.005103    0.013848    0.008193    5.008193 v clk (in)
+                                                         clk (net)
+                      0.013848    0.000000    5.008193 v _78_/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.087281    0.165914    5.174107 v _78_/X (sky130_fd_sc_hd__buf_2)
+                                                         i2c_scl (net)
+                      0.087281    0.000000    5.174107 v i2c_scl (out)
+                                              5.174107   data arrival time
+
+                      0.150000   10.000000   10.000000   clock clk (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -5.174107   data arrival time
+---------------------------------------------------------------------------------------------
+                                              2.575893   slack (MET)
+
+
+Startpoint: clk (clock source 'clk')
+Endpoint: spi_sclk (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.150000    5.000000    5.000000   clock clk (fall edge)
+     2    0.005103    0.013848    0.008193    5.008193 v clk (in)
+                                                         clk (net)
+                      0.013848    0.000000    5.008193 v _79_/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.087281    0.165914    5.174107 v _79_/X (sky130_fd_sc_hd__buf_2)
+                                                         spi_sclk (net)
+                      0.087281    0.000000    5.174107 v spi_sclk (out)
+                                              5.174107   data arrival time
+
+                      0.150000   10.000000   10.000000   clock clk (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -5.174107   data arrival time
+---------------------------------------------------------------------------------------------
+                                              2.575893   slack (MET)
+
+
+
+%OL_END_REPORT
+%OL_CREATE_REPORT checks.rpt
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: clk (clock source 'clk')
+Endpoint: i2c_scl (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.150000    5.000000    5.000000   clock clk (fall edge)
+     2    0.005103    0.013848    0.008193    5.008193 v clk (in)
+                                                         clk (net)
+                      0.013848    0.000000    5.008193 v _78_/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.087281    0.165914    5.174107 v _78_/X (sky130_fd_sc_hd__buf_2)
+                                                         i2c_scl (net)
+                      0.087281    0.000000    5.174107 v i2c_scl (out)
+                                              5.174107   data arrival time
+
+                      0.150000   10.000000   10.000000   clock clk (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -5.174107   data arrival time
+---------------------------------------------------------------------------------------------
+                                              2.575893   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 168 unannotated drivers.
+ gpio_in[0]
+ gpio_in[1]
+ gpio_in[2]
+ gpio_in[3]
+ gpio_in[4]
+ gpio_in[5]
+ gpio_in[6]
+ gpio_in[7]
+ i2c_sda_in
+ rst
+ spi_miso
+ uart_rx
+ _00_/HI
+ _00_/LO
+ _01_/HI
+ _01_/LO
+ _02_/HI
+ _02_/LO
+ _03_/HI
+ _03_/LO
+ _04_/HI
+ _04_/LO
+ _05_/HI
+ _05_/LO
+ _06_/HI
+ _06_/LO
+ _07_/HI
+ _07_/LO
+ _08_/HI
+ _08_/LO
+ _09_/HI
+ _09_/LO
+ _10_/HI
+ _10_/LO
+ _11_/HI
+ _11_/LO
+ _12_/HI
+ _12_/LO
+ _13_/HI
+ _13_/LO
+ _14_/HI
+ _14_/LO
+ _15_/HI
+ _15_/LO
+ _16_/HI
+ _16_/LO
+ _17_/HI
+ _17_/LO
+ _18_/HI
+ _18_/LO
+ _19_/HI
+ _19_/LO
+ _20_/HI
+ _20_/LO
+ _21_/HI
+ _21_/LO
+ _22_/HI
+ _22_/LO
+ _23_/HI
+ _23_/LO
+ _24_/HI
+ _24_/LO
+ _25_/HI
+ _25_/LO
+ _26_/HI
+ _26_/LO
+ _27_/HI
+ _27_/LO
+ _28_/HI
+ _28_/LO
+ _29_/HI
+ _29_/LO
+ _30_/HI
+ _30_/LO
+ _31_/HI
+ _31_/LO
+ _32_/HI
+ _32_/LO
+ _33_/HI
+ _33_/LO
+ _34_/HI
+ _34_/LO
+ _35_/HI
+ _35_/LO
+ _36_/HI
+ _36_/LO
+ _37_/HI
+ _37_/LO
+ _38_/HI
+ _38_/LO
+ _39_/HI
+ _39_/LO
+ _40_/HI
+ _40_/LO
+ _41_/HI
+ _41_/LO
+ _42_/HI
+ _42_/LO
+ _43_/HI
+ _43_/LO
+ _44_/HI
+ _44_/LO
+ _45_/HI
+ _45_/LO
+ _46_/HI
+ _46_/LO
+ _47_/HI
+ _47_/LO
+ _48_/HI
+ _48_/LO
+ _49_/HI
+ _49_/LO
+ _50_/HI
+ _50_/LO
+ _51_/HI
+ _51_/LO
+ _52_/HI
+ _52_/LO
+ _53_/HI
+ _53_/LO
+ _54_/HI
+ _54_/LO
+ _55_/HI
+ _55_/LO
+ _56_/HI
+ _56_/LO
+ _57_/HI
+ _57_/LO
+ _58_/HI
+ _58_/LO
+ _59_/HI
+ _59_/LO
+ _60_/HI
+ _60_/LO
+ _61_/HI
+ _61_/LO
+ _62_/HI
+ _62_/LO
+ _63_/HI
+ _63_/LO
+ _64_/HI
+ _64_/LO
+ _65_/HI
+ _65_/LO
+ _66_/HI
+ _66_/LO
+ _67_/HI
+ _67_/LO
+ _68_/HI
+ _68_/LO
+ _69_/HI
+ _69_/LO
+ _70_/HI
+ _70_/LO
+ _71_/HI
+ _71_/LO
+ _72_/HI
+ _72_/LO
+ _73_/HI
+ _73_/LO
+ _74_/HI
+ _74_/LO
+ _75_/HI
+ _75_/LO
+ _76_/HI
+ _76_/LO
+ _77_/HI
+ _77_/LO
+Found 3 partially unannotated drivers.
+ clk
+  _78_/A
+  _79_/A
+ _78_/X
+  i2c_scl
+ _79_/X
+  spi_sclk
+
+===========================================================================
+max slew violation count 0
+%OL_METRIC_I design__max_slew_violation__count__corner:nom_tt_025C_1v80 0
+max fanout violation count 0
+%OL_METRIC_I design__max_fanout_violation__count__corner:nom_tt_025C_1v80 0
+max cap violation count 0
+%OL_METRIC_I design__max_cap_violation__count__corner:nom_tt_025C_1v80 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 78 unconstrained endpoints.
+  gpio_out[0]
+  gpio_out[1]
+  gpio_out[2]
+  gpio_out[3]
+  gpio_out[4]
+  gpio_out[5]
+  gpio_out[6]
+  gpio_out[7]
+  i2c_sda_out
+  mac_done
+  mac_result[0]
+  mac_result[10]
+  mac_result[11]
+  mac_result[12]
+  mac_result[13]
+  mac_result[14]
+  mac_result[15]
+  mac_result[16]
+  mac_result[17]
+  mac_result[18]
+  mac_result[19]
+  mac_result[1]
+  mac_result[20]
+  mac_result[21]
+  mac_result[22]
+  mac_result[23]
+  mac_result[24]
+  mac_result[25]
+  mac_result[26]
+  mac_result[27]
+  mac_result[28]
+  mac_result[29]
+  mac_result[2]
+  mac_result[30]
+  mac_result[31]
+  mac_result[32]
+  mac_result[33]
+  mac_result[34]
+  mac_result[35]
+  mac_result[36]
+  mac_result[37]
+  mac_result[38]
+  mac_result[39]
+  mac_result[3]
+  mac_result[40]
+  mac_result[41]
+  mac_result[42]
+  mac_result[43]
+  mac_result[44]
+  mac_result[45]
+  mac_result[46]
+  mac_result[47]
+  mac_result[48]
+  mac_result[49]
+  mac_result[4]
+  mac_result[50]
+  mac_result[51]
+  mac_result[52]
+  mac_result[53]
+  mac_result[54]
+  mac_result[55]
+  mac_result[56]
+  mac_result[57]
+  mac_result[58]
+  mac_result[59]
+  mac_result[5]
+  mac_result[60]
+  mac_result[61]
+  mac_result[62]
+  mac_result[63]
+  mac_result[6]
+  mac_result[7]
+  mac_result[8]
+  mac_result[9]
+  spi_cs
+  spi_mosi
+  timer_irq
+  uart_tx
+%OL_END_REPORT
+%OL_CREATE_REPORT power.rpt
+
+===========================================================================
+ report_power
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Group                    Internal    Switching      Leakage        Total
+                            Power        Power        Power        Power (Watts)
+------------------------------------------------------------------------
+Sequential           0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Combinational        0.000000e+00 0.000000e+00 2.527229e-10 2.527229e-10   0.0%
+Clock                5.498326e-06 2.167041e-05 7.868300e-12 2.716875e-05 100.0%
+Macro                0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Pad                  0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+------------------------------------------------------------------------
+Total                5.498326e-06 2.167041e-05 2.605912e-10 2.716900e-05 100.0%
+                            20.2%        79.8%         0.0%
+%OL_METRIC_F power__internal__total 5.498326117958641e-6
+%OL_METRIC_F power__switching__total 2.1670413843821734e-5
+%OL_METRIC_F power__leakage__total 2.6059118751753374e-10
+%OL_METRIC_F power__total 2.7169000532012433e-5
+
+%OL_END_REPORT
+%OL_CREATE_REPORT skew.min.rpt
+
+===========================================================================
+Clock Skew (Hold)
+============================================================================
+%OL_METRIC_F clock__skew__worst_hold__corner:nom_tt_025C_1v80 0.0
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Clock clk
+No launch/capture paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT skew.max.rpt
+
+===========================================================================
+Clock Skew (Setup)
+============================================================================
+%OL_METRIC_F clock__skew__worst_setup__corner:nom_tt_025C_1v80 0.0
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Clock clk
+No launch/capture paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT ws.min.rpt
+
+===========================================================================
+Worst Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__ws__corner:nom_tt_025C_1v80 1.9579542985560772
+nom_tt_025C_1v80: 1.9579542985560772
+%OL_END_REPORT
+%OL_CREATE_REPORT ws.max.rpt
+
+===========================================================================
+Worst Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__ws__corner:nom_tt_025C_1v80 2.575893349308703
+nom_tt_025C_1v80: 2.575893349308703
+%OL_END_REPORT
+%OL_CREATE_REPORT tns.min.rpt
+
+===========================================================================
+Total Negative Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__tns__corner:nom_tt_025C_1v80 0.0
+nom_tt_025C_1v80: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT tns.max.rpt
+
+===========================================================================
+Total Negative Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__tns__corner:nom_tt_025C_1v80 0.0
+nom_tt_025C_1v80: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT wns.min.rpt
+
+===========================================================================
+Worst Negative Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__wns__corner:nom_tt_025C_1v80 0
+nom_tt_025C_1v80: 0
+%OL_END_REPORT
+%OL_CREATE_REPORT wns.max.rpt
+
+===========================================================================
+Worst Negative Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__wns__corner:nom_tt_025C_1v80 0.0
+nom_tt_025C_1v80: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT violator_list.rpt
+
+===========================================================================
+Violator List
+============================================================================
+%OL_METRIC_I timing__hold_vio__count__corner:nom_tt_025C_1v80 0
+%OL_METRIC_F timing__hold_r2r__ws__corner:nom_tt_025C_1v80 inf
+%OL_METRIC_I timing__hold_r2r_vio__count__corner:nom_tt_025C_1v80 0
+%OL_METRIC_I timing__setup_vio__count__corner:nom_tt_025C_1v80 0
+%OL_METRIC_F timing__setup_r2r__ws__corner:nom_tt_025C_1v80 inf
+%OL_METRIC_I timing__setup_r2r_vio__count__corner:nom_tt_025C_1v80 0
+%OL_END_REPORT
+%OL_CREATE_REPORT unpropagated.rpt
+clk
+%OL_END_REPORT
+%OL_CREATE_REPORT clock.rpt
+Clock: clk
+Sources: clk 
+Generated: no
+Virtual: no
+Propagated: no
+Period: 10.000000
+
+===========================================================================
+report_clock_properties
+============================================================================
+Clock                   Period          Waveform
+----------------------------------------------------
+clk                  10.000000    0.000000  5.000000
+
+===========================================================================
+report_clock_latency
+============================================================================
+Clock clk
+
+
+===========================================================================
+report_clock_min_period
+============================================================================
+clk period_min = 0.00 fmax = inf
+%OL_END_REPORT
+Writing SDF files for all corners…

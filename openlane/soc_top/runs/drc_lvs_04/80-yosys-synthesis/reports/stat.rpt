@@ -1,0 +1,20 @@
+217. Printing statistics.
+
+=== soc_top ===
+
+   Number of wires:                 16
+   Number of wire bits:             93
+   Number of public wires:          16
+   Number of public wire bits:      93
+   Number of ports:                 16
+   Number of port bits:             93
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 80
+     sky130_fd_sc_hd__buf_2          2
+     sky130_fd_sc_hd__conb_1        78
+
+   Chip area for module '\soc_top': 302.790400
+     of which used for sequential elements: 0.000000 (0.00%)
+

@@ -1,0 +1,393 @@
+
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__fill_1         |Circuit 2: sky130_fd_sc_hd__fill_1         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__fill_1 and sky130_fd_sc_hd__fill_1 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_6        |Circuit 2: sky130_fd_sc_hd__decap_6        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_6 and sky130_fd_sc_hd__decap_6 are equivalent.
+
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VPWR
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VGND
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VPB
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VNB
+
+Subcircuit pins:
+Circuit 1: sky130_ef_sc_hd__decap_12       |Circuit 2: sky130_ef_sc_hd__decap_12       
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_ef_sc_hd__decap_12 and sky130_ef_sc_hd__decap_12 are equivalent.
+
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_8        |Circuit 2: sky130_fd_sc_hd__decap_8        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_8 and sky130_fd_sc_hd__decap_8 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_4        |Circuit 2: sky130_fd_sc_hd__decap_4        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_4 and sky130_fd_sc_hd__decap_4 are equivalent.
+
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: HI
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: LO
+Cell sky130_fd_sc_hd__conb_1 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__conb_1 (1) disconnected node: VPB
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__conb_1         |Circuit 2: sky130_fd_sc_hd__conb_1         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+HI                                         |HI                                         
+LO                                         |LO                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__conb_1 and sky130_fd_sc_hd__conb_1 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_3        |Circuit 2: sky130_fd_sc_hd__decap_3        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_3 and sky130_fd_sc_hd__decap_3 are equivalent.
+
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__fill_2         |Circuit 2: sky130_fd_sc_hd__fill_2         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__fill_2 and sky130_fd_sc_hd__fill_2 are equivalent.
+
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_16      |Circuit 2: sky130_fd_sc_hd__clkbuf_16      
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_16 and sky130_fd_sc_hd__clkbuf_16 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_2          |Circuit 2: sky130_fd_sc_hd__buf_2          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_2 and sky130_fd_sc_hd__buf_2 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_1          |Circuit 2: sky130_fd_sc_hd__buf_1          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_1 and sky130_fd_sc_hd__buf_1 are equivalent.
+
+Cell soc_top (0) disconnected node: gpio_in[0]
+Cell soc_top (0) disconnected node: gpio_in[1]
+Cell soc_top (0) disconnected node: gpio_in[2]
+Cell soc_top (0) disconnected node: gpio_in[3]
+Cell soc_top (0) disconnected node: gpio_in[4]
+Cell soc_top (0) disconnected node: gpio_in[5]
+Cell soc_top (0) disconnected node: gpio_in[6]
+Cell soc_top (0) disconnected node: gpio_in[7]
+Cell soc_top (0) disconnected node: i2c_sda_in
+Cell soc_top (0) disconnected node: rst
+Cell soc_top (0) disconnected node: spi_miso
+Cell soc_top (0) disconnected node: uart_rx
+Cell soc_top (1) disconnected node: i2c_sda_in
+Cell soc_top (1) disconnected node: rst
+Cell soc_top (1) disconnected node: spi_miso
+Cell soc_top (1) disconnected node: uart_rx
+Cell soc_top (1) disconnected node: gpio_in[7]
+Cell soc_top (1) disconnected node: gpio_in[6]
+Cell soc_top (1) disconnected node: gpio_in[5]
+Cell soc_top (1) disconnected node: gpio_in[4]
+Cell soc_top (1) disconnected node: gpio_in[3]
+Cell soc_top (1) disconnected node: gpio_in[2]
+Cell soc_top (1) disconnected node: gpio_in[1]
+Cell soc_top (1) disconnected node: gpio_in[0]
+Class soc_top (0):  Merged 9257 parallel devices.
+Class soc_top (1):  Merged 9257 parallel devices.
+Cell soc_top (0) disconnected node: gpio_in[0]
+Cell soc_top (0) disconnected node: gpio_in[1]
+Cell soc_top (0) disconnected node: gpio_in[2]
+Cell soc_top (0) disconnected node: gpio_in[3]
+Cell soc_top (0) disconnected node: gpio_in[4]
+Cell soc_top (0) disconnected node: gpio_in[5]
+Cell soc_top (0) disconnected node: gpio_in[6]
+Cell soc_top (0) disconnected node: gpio_in[7]
+Cell soc_top (0) disconnected node: i2c_sda_in
+Cell soc_top (0) disconnected node: rst
+Cell soc_top (0) disconnected node: spi_miso
+Cell soc_top (0) disconnected node: uart_rx
+Cell soc_top (1) disconnected node: i2c_sda_in
+Cell soc_top (1) disconnected node: rst
+Cell soc_top (1) disconnected node: spi_miso
+Cell soc_top (1) disconnected node: uart_rx
+Cell soc_top (1) disconnected node: gpio_in[7]
+Cell soc_top (1) disconnected node: gpio_in[6]
+Cell soc_top (1) disconnected node: gpio_in[5]
+Cell soc_top (1) disconnected node: gpio_in[4]
+Cell soc_top (1) disconnected node: gpio_in[3]
+Cell soc_top (1) disconnected node: gpio_in[2]
+Cell soc_top (1) disconnected node: gpio_in[1]
+Cell soc_top (1) disconnected node: gpio_in[0]
+Subcircuit summary:
+Circuit 1: soc_top                         |Circuit 2: soc_top                         
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_hd__fill_1 (1227->1)          |sky130_fd_sc_hd__fill_1 (1227->1)          
+sky130_fd_sc_hd__decap_6 (1121->1)         |sky130_fd_sc_hd__decap_6 (1121->1)         
+sky130_ef_sc_hd__decap_12 (5145->1)        |sky130_ef_sc_hd__decap_12 (5145->1)        
+sky130_fd_sc_hd__tapvpwrvgnd_1 (1276->1)   |sky130_fd_sc_hd__tapvpwrvgnd_1 (1276->1)   
+sky130_fd_sc_hd__decap_8 (65->1)           |sky130_fd_sc_hd__decap_8 (65->1)           
+sky130_fd_sc_hd__decap_4 (70->1)           |sky130_fd_sc_hd__decap_4 (70->1)           
+sky130_fd_sc_hd__conb_1 (78)               |sky130_fd_sc_hd__conb_1 (78)               
+sky130_fd_sc_hd__decap_3 (340->1)          |sky130_fd_sc_hd__decap_3 (340->1)          
+sky130_fd_sc_hd__fill_2 (21->1)            |sky130_fd_sc_hd__fill_2 (21->1)            
+sky130_fd_sc_hd__clkbuf_16 (3)             |sky130_fd_sc_hd__clkbuf_16 (3)             
+sky130_fd_sc_hd__buf_2 (2)                 |sky130_fd_sc_hd__buf_2 (2)                 
+sky130_fd_sc_hd__buf_1 (2)                 |sky130_fd_sc_hd__buf_1 (2)                 
+Number of devices: 93                      |Number of devices: 93                      
+Number of nets: 166                        |Number of nets: 166                        
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: soc_top                         |Circuit 2: soc_top                         
+-------------------------------------------|-------------------------------------------
+clk                                        |clk                                        
+spi_sclk                                   |spi_sclk                                   
+i2c_scl                                    |i2c_scl                                    
+timer_irq                                  |timer_irq                                  
+spi_cs                                     |spi_cs                                     
+mac_result[53]                             |mac_result[53]                             
+mac_result[42]                             |mac_result[42]                             
+mac_result[31]                             |mac_result[31]                             
+mac_result[9]                              |mac_result[9]                              
+mac_result[20]                             |mac_result[20]                             
+gpio_out[7]                                |gpio_out[7]                                
+mac_result[63]                             |mac_result[63]                             
+mac_result[52]                             |mac_result[52]                             
+mac_result[41]                             |mac_result[41]                             
+mac_result[30]                             |mac_result[30]                             
+mac_result[19]                             |mac_result[19]                             
+mac_result[8]                              |mac_result[8]                              
+mac_result[62]                             |mac_result[62]                             
+gpio_out[6]                                |gpio_out[6]                                
+mac_result[51]                             |mac_result[51]                             
+mac_result[18]                             |mac_result[18]                             
+mac_result[29]                             |mac_result[29]                             
+mac_result[7]                              |mac_result[7]                              
+mac_result[40]                             |mac_result[40]                             
+mac_result[50]                             |mac_result[50]                             
+mac_result[61]                             |mac_result[61]                             
+gpio_out[5]                                |gpio_out[5]                                
+mac_result[39]                             |mac_result[39]                             
+mac_result[28]                             |mac_result[28]                             
+mac_result[17]                             |mac_result[17]                             
+gpio_out[4]                                |gpio_out[4]                                
+mac_result[60]                             |mac_result[60]                             
+mac_result[38]                             |mac_result[38]                             
+mac_result[49]                             |mac_result[49]                             
+mac_result[27]                             |mac_result[27]                             
+gpio_out[3]                                |gpio_out[3]                                
+mac_result[59]                             |mac_result[59]                             
+mac_result[48]                             |mac_result[48]                             
+mac_result[37]                             |mac_result[37]                             
+gpio_out[2]                                |gpio_out[2]                                
+mac_result[58]                             |mac_result[58]                             
+mac_result[47]                             |mac_result[47]                             
+gpio_out[1]                                |gpio_out[1]                                
+mac_result[57]                             |mac_result[57]                             
+gpio_out[0]                                |gpio_out[0]                                
+uart_tx                                    |uart_tx                                    
+mac_result[6]                              |mac_result[6]                              
+mac_result[5]                              |mac_result[5]                              
+mac_result[4]                              |mac_result[4]                              
+mac_result[3]                              |mac_result[3]                              
+mac_result[2]                              |mac_result[2]                              
+mac_result[1]                              |mac_result[1]                              
+mac_result[0]                              |mac_result[0]                              
+mac_result[16]                             |mac_result[16]                             
+mac_result[26]                             |mac_result[26]                             
+mac_result[15]                             |mac_result[15]                             
+mac_result[36]                             |mac_result[36]                             
+mac_result[14]                             |mac_result[14]                             
+mac_result[25]                             |mac_result[25]                             
+mac_result[46]                             |mac_result[46]                             
+mac_result[35]                             |mac_result[35]                             
+mac_result[24]                             |mac_result[24]                             
+mac_result[13]                             |mac_result[13]                             
+mac_result[56]                             |mac_result[56]                             
+mac_result[45]                             |mac_result[45]                             
+mac_result[34]                             |mac_result[34]                             
+mac_result[23]                             |mac_result[23]                             
+mac_result[12]                             |mac_result[12]                             
+i2c_sda_out                                |i2c_sda_out                                
+mac_result[44]                             |mac_result[44]                             
+mac_result[55]                             |mac_result[55]                             
+mac_result[33]                             |mac_result[33]                             
+mac_result[11]                             |mac_result[11]                             
+mac_result[22]                             |mac_result[22]                             
+mac_done                                   |mac_done                                   
+spi_mosi                                   |spi_mosi                                   
+mac_result[43]                             |mac_result[43]                             
+mac_result[32]                             |mac_result[32]                             
+mac_result[54]                             |mac_result[54]                             
+mac_result[21]                             |mac_result[21]                             
+mac_result[10]                             |mac_result[10]                             
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+gpio_in[0]                                 |gpio_in[0]                                 
+gpio_in[1]                                 |gpio_in[1]                                 
+gpio_in[2]                                 |gpio_in[2]                                 
+gpio_in[3]                                 |gpio_in[3]                                 
+gpio_in[4]                                 |gpio_in[4]                                 
+gpio_in[5]                                 |gpio_in[5]                                 
+gpio_in[6]                                 |gpio_in[6]                                 
+gpio_in[7]                                 |gpio_in[7]                                 
+i2c_sda_in                                 |i2c_sda_in                                 
+rst                                        |rst                                        
+spi_miso                                   |spi_miso                                   
+uart_rx                                    |uart_rx                                    
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes soc_top and soc_top are equivalent.
+
+Final result: Circuits match uniquely.
+.

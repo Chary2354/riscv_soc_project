@@ -1,0 +1,65 @@
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+Startpoint: clk (clock source 'clk')
+Endpoint: i2c_scl (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.150000    0.000000    0.000000   clock clk (rise edge)
+     2    0.005103    0.047891    0.027858    0.027858 ^ clk (in)
+                                                         clk (net)
+                      0.047891    0.000000    0.027858 ^ _78_/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.269882    0.329457    0.357315 ^ _78_/X (sky130_fd_sc_hd__buf_2)
+                                                         i2c_scl (net)
+                      0.269882    0.000000    0.357315 ^ i2c_scl (out)
+                                              0.357315   data arrival time
+
+                      0.150000    0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  0.250000    0.250000   clock uncertainty
+                                  0.000000    0.250000   clock reconvergence pessimism
+                                 -2.000000   -1.750000   output external delay
+                                             -1.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             -1.750000   data required time
+                                             -0.357315   data arrival time
+---------------------------------------------------------------------------------------------
+                                              2.107315   slack (MET)
+
+
+Startpoint: clk (clock source 'clk')
+Endpoint: spi_sclk (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.150000    0.000000    0.000000   clock clk (rise edge)
+     2    0.005103    0.047891    0.027858    0.027858 ^ clk (in)
+                                                         clk (net)
+                      0.047891    0.000000    0.027858 ^ _79_/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.269882    0.329457    0.357315 ^ _79_/X (sky130_fd_sc_hd__buf_2)
+                                                         spi_sclk (net)
+                      0.269882    0.000000    0.357315 ^ spi_sclk (out)
+                                              0.357315   data arrival time
+
+                      0.150000    0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  0.250000    0.250000   clock uncertainty
+                                  0.000000    0.250000   clock reconvergence pessimism
+                                 -2.000000   -1.750000   output external delay
+                                             -1.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             -1.750000   data required time
+                                             -0.357315   data arrival time
+---------------------------------------------------------------------------------------------
+                                              2.107315   slack (MET)
+
+
+

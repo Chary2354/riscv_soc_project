@@ -1,0 +1,18 @@
+{
+	"design__io": 95,
+	"design__die__area": 102400,
+	"design__core__area": 91511.5,
+	"design__instance__count": 1361,
+	"design__instance__area": 1981.9,
+	"design__instance__count__stdcell": 1361,
+	"design__instance__area__stdcell": 1981.9,
+	"design__instance__count__macros": 0,
+	"design__instance__area__macros": 0,
+	"design__instance__utilization": 0.0216574,
+	"design__instance__utilization__stdcell": 0.0216574,
+	"design__instance__count__class:fill_cell": 7989,
+	"design__instance__count__class:tap_cell": 1276,
+	"design__instance__count__class:standard_cell": 85,
+	"flow__warnings__count": 2,
+	"flow__errors__count": 0
+}

@@ -1,0 +1,70 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/root/.volare/volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/root/.volare/volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/root/.volare/volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading OpenROAD database at '/work/openlane/soc_top/runs/drc_lvs_04/27-openroad-globalplacement/soc_top.odb'…
+Reading design constraints file at '/nix/store/ss2cw3sxbrwwx9jl0rrppbw4kgcmgi2n-python3-3.11.9-env/lib/python3.11/site-packages/openlane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 2.0
+[INFO] Setting input delay to: 2.0
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+[INFO] Setting RC values…
+[INFO RSZ-0028] Inserted 2 output buffers.
+[INFO RSZ-0058] Using max wire length 6335um.
+Iteration | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------
+        0 |       0 |       0 |             0 |       173
+       10 |       0 |       0 |             0 |       163
+       20 |       0 |       0 |             0 |       153
+       30 |       0 |       0 |             0 |       143
+       40 |       0 |       0 |             0 |       133
+       50 |       0 |       0 |             0 |       123
+       60 |       0 |       0 |             0 |       113
+       70 |       0 |       0 |             0 |       103
+       80 |       0 |       0 |             0 |        93
+       90 |       0 |       0 |             0 |        83
+      100 |       0 |       0 |             0 |        73
+      110 |       0 |       0 |             0 |        63
+      120 |       0 |       0 |             0 |        53
+      130 |       0 |       0 |             0 |        43
+      140 |       0 |       0 |             0 |        33
+      150 |       0 |       0 |             0 |        23
+      160 |       0 |       0 |             0 |        13
+      170 |       0 |       0 |             0 |         3
+    final |       0 |       0 |             0 |         0
+---------------------------------------------------------
+[INFO RSZ-0042] Inserted 78 tie sky130_fd_sc_hd__conb_1 instances.
+Placement Analysis
+---------------------------------
+total displacement         90.5 u
+average displacement        0.1 u
+max displacement            2.4 u
+original HPWL             827.1 u
+legalized HPWL            878.8 u
+delta HPWL                    6 %
+
+[INFO DPL-0020] Mirrored 56 instances
+[INFO DPL-0021] HPWL before             878.8 u
+[INFO DPL-0022] HPWL after              841.2 u
+[INFO DPL-0023] HPWL delta               -4.3 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               218     818.28
+  Tap cell                               1276    1596.53
+  Buffer                                    2      10.01
+  Clock buffer                              2       7.51
+  Multi-Input combinational cell           78     292.78
+  Total                                  1576    2725.11
+Writing OpenROAD database to '/work/openlane/soc_top/runs/drc_lvs_04/31-openroad-repairdesignpostgpl/soc_top.odb'…
+Writing netlist to '/work/openlane/soc_top/runs/drc_lvs_04/31-openroad-repairdesignpostgpl/soc_top.nl.v'…
+Writing powered netlist to '/work/openlane/soc_top/runs/drc_lvs_04/31-openroad-repairdesignpostgpl/soc_top.pnl.v'…
+Writing layout to '/work/openlane/soc_top/runs/drc_lvs_04/31-openroad-repairdesignpostgpl/soc_top.def'…
+Writing timing constraints to '/work/openlane/soc_top/runs/drc_lvs_04/31-openroad-repairdesignpostgpl/soc_top.sdc'…

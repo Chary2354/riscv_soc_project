@@ -1,0 +1,444 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN soc_top ;
+UNITS DISTANCE MICRONS 1000 ;
+DIEAREA ( 0 0 ) ( 320000 320000 ) ;
+ROW ROW_0 unithd 5520 10880 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_1 unithd 5520 13600 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_2 unithd 5520 16320 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_3 unithd 5520 19040 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_4 unithd 5520 21760 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_5 unithd 5520 24480 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_6 unithd 5520 27200 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_7 unithd 5520 29920 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_8 unithd 5520 32640 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_9 unithd 5520 35360 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_10 unithd 5520 38080 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_11 unithd 5520 40800 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_12 unithd 5520 43520 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_13 unithd 5520 46240 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_14 unithd 5520 48960 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_15 unithd 5520 51680 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_16 unithd 5520 54400 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_17 unithd 5520 57120 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_18 unithd 5520 59840 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_19 unithd 5520 62560 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_20 unithd 5520 65280 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_21 unithd 5520 68000 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_22 unithd 5520 70720 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_23 unithd 5520 73440 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_24 unithd 5520 76160 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_25 unithd 5520 78880 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_26 unithd 5520 81600 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_27 unithd 5520 84320 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_28 unithd 5520 87040 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_29 unithd 5520 89760 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_30 unithd 5520 92480 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_31 unithd 5520 95200 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_32 unithd 5520 97920 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_33 unithd 5520 100640 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_34 unithd 5520 103360 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_35 unithd 5520 106080 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_36 unithd 5520 108800 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_37 unithd 5520 111520 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_38 unithd 5520 114240 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_39 unithd 5520 116960 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_40 unithd 5520 119680 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_41 unithd 5520 122400 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_42 unithd 5520 125120 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_43 unithd 5520 127840 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_44 unithd 5520 130560 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_45 unithd 5520 133280 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_46 unithd 5520 136000 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_47 unithd 5520 138720 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_48 unithd 5520 141440 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_49 unithd 5520 144160 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_50 unithd 5520 146880 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_51 unithd 5520 149600 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_52 unithd 5520 152320 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_53 unithd 5520 155040 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_54 unithd 5520 157760 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_55 unithd 5520 160480 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_56 unithd 5520 163200 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_57 unithd 5520 165920 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_58 unithd 5520 168640 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_59 unithd 5520 171360 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_60 unithd 5520 174080 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_61 unithd 5520 176800 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_62 unithd 5520 179520 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_63 unithd 5520 182240 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_64 unithd 5520 184960 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_65 unithd 5520 187680 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_66 unithd 5520 190400 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_67 unithd 5520 193120 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_68 unithd 5520 195840 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_69 unithd 5520 198560 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_70 unithd 5520 201280 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_71 unithd 5520 204000 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_72 unithd 5520 206720 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_73 unithd 5520 209440 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_74 unithd 5520 212160 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_75 unithd 5520 214880 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_76 unithd 5520 217600 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_77 unithd 5520 220320 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_78 unithd 5520 223040 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_79 unithd 5520 225760 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_80 unithd 5520 228480 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_81 unithd 5520 231200 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_82 unithd 5520 233920 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_83 unithd 5520 236640 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_84 unithd 5520 239360 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_85 unithd 5520 242080 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_86 unithd 5520 244800 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_87 unithd 5520 247520 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_88 unithd 5520 250240 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_89 unithd 5520 252960 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_90 unithd 5520 255680 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_91 unithd 5520 258400 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_92 unithd 5520 261120 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_93 unithd 5520 263840 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_94 unithd 5520 266560 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_95 unithd 5520 269280 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_96 unithd 5520 272000 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_97 unithd 5520 274720 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_98 unithd 5520 277440 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_99 unithd 5520 280160 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_100 unithd 5520 282880 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_101 unithd 5520 285600 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_102 unithd 5520 288320 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_103 unithd 5520 291040 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_104 unithd 5520 293760 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_105 unithd 5520 296480 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_106 unithd 5520 299200 N DO 671 BY 1 STEP 460 0 ;
+ROW ROW_107 unithd 5520 301920 FS DO 671 BY 1 STEP 460 0 ;
+ROW ROW_108 unithd 5520 304640 N DO 671 BY 1 STEP 460 0 ;
+TRACKS X 230 DO 695 STEP 460 LAYER li1 ;
+TRACKS Y 170 DO 941 STEP 340 LAYER li1 ;
+TRACKS X 170 DO 941 STEP 340 LAYER met1 ;
+TRACKS Y 170 DO 941 STEP 340 LAYER met1 ;
+TRACKS X 230 DO 696 STEP 460 LAYER met2 ;
+TRACKS Y 230 DO 696 STEP 460 LAYER met2 ;
+TRACKS X 340 DO 470 STEP 680 LAYER met3 ;
+TRACKS Y 340 DO 470 STEP 680 LAYER met3 ;
+TRACKS X 460 DO 348 STEP 920 LAYER met4 ;
+TRACKS Y 460 DO 348 STEP 920 LAYER met4 ;
+TRACKS X 1700 DO 94 STEP 3400 LAYER met5 ;
+TRACKS Y 1700 DO 94 STEP 3400 LAYER met5 ;
+COMPONENTS 80 ;
+    - _00_ sky130_fd_sc_hd__conb_1 ;
+    - _01_ sky130_fd_sc_hd__conb_1 ;
+    - _02_ sky130_fd_sc_hd__conb_1 ;
+    - _03_ sky130_fd_sc_hd__conb_1 ;
+    - _04_ sky130_fd_sc_hd__conb_1 ;
+    - _05_ sky130_fd_sc_hd__conb_1 ;
+    - _06_ sky130_fd_sc_hd__conb_1 ;
+    - _07_ sky130_fd_sc_hd__conb_1 ;
+    - _08_ sky130_fd_sc_hd__conb_1 ;
+    - _09_ sky130_fd_sc_hd__conb_1 ;
+    - _10_ sky130_fd_sc_hd__conb_1 ;
+    - _11_ sky130_fd_sc_hd__conb_1 ;
+    - _12_ sky130_fd_sc_hd__conb_1 ;
+    - _13_ sky130_fd_sc_hd__conb_1 ;
+    - _14_ sky130_fd_sc_hd__conb_1 ;
+    - _15_ sky130_fd_sc_hd__conb_1 ;
+    - _16_ sky130_fd_sc_hd__conb_1 ;
+    - _17_ sky130_fd_sc_hd__conb_1 ;
+    - _18_ sky130_fd_sc_hd__conb_1 ;
+    - _19_ sky130_fd_sc_hd__conb_1 ;
+    - _20_ sky130_fd_sc_hd__conb_1 ;
+    - _21_ sky130_fd_sc_hd__conb_1 ;
+    - _22_ sky130_fd_sc_hd__conb_1 ;
+    - _23_ sky130_fd_sc_hd__conb_1 ;
+    - _24_ sky130_fd_sc_hd__conb_1 ;
+    - _25_ sky130_fd_sc_hd__conb_1 ;
+    - _26_ sky130_fd_sc_hd__conb_1 ;
+    - _27_ sky130_fd_sc_hd__conb_1 ;
+    - _28_ sky130_fd_sc_hd__conb_1 ;
+    - _29_ sky130_fd_sc_hd__conb_1 ;
+    - _30_ sky130_fd_sc_hd__conb_1 ;
+    - _31_ sky130_fd_sc_hd__conb_1 ;
+    - _32_ sky130_fd_sc_hd__conb_1 ;
+    - _33_ sky130_fd_sc_hd__conb_1 ;
+    - _34_ sky130_fd_sc_hd__conb_1 ;
+    - _35_ sky130_fd_sc_hd__conb_1 ;
+    - _36_ sky130_fd_sc_hd__conb_1 ;
+    - _37_ sky130_fd_sc_hd__conb_1 ;
+    - _38_ sky130_fd_sc_hd__conb_1 ;
+    - _39_ sky130_fd_sc_hd__conb_1 ;
+    - _40_ sky130_fd_sc_hd__conb_1 ;
+    - _41_ sky130_fd_sc_hd__conb_1 ;
+    - _42_ sky130_fd_sc_hd__conb_1 ;
+    - _43_ sky130_fd_sc_hd__conb_1 ;
+    - _44_ sky130_fd_sc_hd__conb_1 ;
+    - _45_ sky130_fd_sc_hd__conb_1 ;
+    - _46_ sky130_fd_sc_hd__conb_1 ;
+    - _47_ sky130_fd_sc_hd__conb_1 ;
+    - _48_ sky130_fd_sc_hd__conb_1 ;
+    - _49_ sky130_fd_sc_hd__conb_1 ;
+    - _50_ sky130_fd_sc_hd__conb_1 ;
+    - _51_ sky130_fd_sc_hd__conb_1 ;
+    - _52_ sky130_fd_sc_hd__conb_1 ;
+    - _53_ sky130_fd_sc_hd__conb_1 ;
+    - _54_ sky130_fd_sc_hd__conb_1 ;
+    - _55_ sky130_fd_sc_hd__conb_1 ;
+    - _56_ sky130_fd_sc_hd__conb_1 ;
+    - _57_ sky130_fd_sc_hd__conb_1 ;
+    - _58_ sky130_fd_sc_hd__conb_1 ;
+    - _59_ sky130_fd_sc_hd__conb_1 ;
+    - _60_ sky130_fd_sc_hd__conb_1 ;
+    - _61_ sky130_fd_sc_hd__conb_1 ;
+    - _62_ sky130_fd_sc_hd__conb_1 ;
+    - _63_ sky130_fd_sc_hd__conb_1 ;
+    - _64_ sky130_fd_sc_hd__conb_1 ;
+    - _65_ sky130_fd_sc_hd__conb_1 ;
+    - _66_ sky130_fd_sc_hd__conb_1 ;
+    - _67_ sky130_fd_sc_hd__conb_1 ;
+    - _68_ sky130_fd_sc_hd__conb_1 ;
+    - _69_ sky130_fd_sc_hd__conb_1 ;
+    - _70_ sky130_fd_sc_hd__conb_1 ;
+    - _71_ sky130_fd_sc_hd__conb_1 ;
+    - _72_ sky130_fd_sc_hd__conb_1 ;
+    - _73_ sky130_fd_sc_hd__conb_1 ;
+    - _74_ sky130_fd_sc_hd__conb_1 ;
+    - _75_ sky130_fd_sc_hd__conb_1 ;
+    - _76_ sky130_fd_sc_hd__conb_1 ;
+    - _77_ sky130_fd_sc_hd__conb_1 ;
+    - _78_ sky130_fd_sc_hd__buf_2 ;
+    - _79_ sky130_fd_sc_hd__buf_2 ;
+END COMPONENTS
+PINS 93 ;
+    - clk + NET clk + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_in[0] + NET gpio_in[0] + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_in[1] + NET gpio_in[1] + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_in[2] + NET gpio_in[2] + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_in[3] + NET gpio_in[3] + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_in[4] + NET gpio_in[4] + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_in[5] + NET gpio_in[5] + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_in[6] + NET gpio_in[6] + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_in[7] + NET gpio_in[7] + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_out[0] + NET gpio_out[0] + DIRECTION OUTPUT + USE SIGNAL ;
+    - gpio_out[1] + NET gpio_out[1] + DIRECTION OUTPUT + USE SIGNAL ;
+    - gpio_out[2] + NET gpio_out[2] + DIRECTION OUTPUT + USE SIGNAL ;
+    - gpio_out[3] + NET gpio_out[3] + DIRECTION OUTPUT + USE SIGNAL ;
+    - gpio_out[4] + NET gpio_out[4] + DIRECTION OUTPUT + USE SIGNAL ;
+    - gpio_out[5] + NET gpio_out[5] + DIRECTION OUTPUT + USE SIGNAL ;
+    - gpio_out[6] + NET gpio_out[6] + DIRECTION OUTPUT + USE SIGNAL ;
+    - gpio_out[7] + NET gpio_out[7] + DIRECTION OUTPUT + USE SIGNAL ;
+    - i2c_scl + NET i2c_scl + DIRECTION OUTPUT + USE SIGNAL ;
+    - i2c_sda_in + NET i2c_sda_in + DIRECTION INPUT + USE SIGNAL ;
+    - i2c_sda_out + NET i2c_sda_out + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_done + NET mac_done + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[0] + NET mac_result[0] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[10] + NET mac_result[10] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[11] + NET mac_result[11] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[12] + NET mac_result[12] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[13] + NET mac_result[13] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[14] + NET mac_result[14] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[15] + NET mac_result[15] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[16] + NET mac_result[16] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[17] + NET mac_result[17] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[18] + NET mac_result[18] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[19] + NET mac_result[19] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[1] + NET mac_result[1] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[20] + NET mac_result[20] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[21] + NET mac_result[21] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[22] + NET mac_result[22] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[23] + NET mac_result[23] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[24] + NET mac_result[24] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[25] + NET mac_result[25] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[26] + NET mac_result[26] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[27] + NET mac_result[27] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[28] + NET mac_result[28] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[29] + NET mac_result[29] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[2] + NET mac_result[2] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[30] + NET mac_result[30] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[31] + NET mac_result[31] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[32] + NET mac_result[32] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[33] + NET mac_result[33] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[34] + NET mac_result[34] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[35] + NET mac_result[35] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[36] + NET mac_result[36] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[37] + NET mac_result[37] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[38] + NET mac_result[38] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[39] + NET mac_result[39] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[3] + NET mac_result[3] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[40] + NET mac_result[40] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[41] + NET mac_result[41] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[42] + NET mac_result[42] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[43] + NET mac_result[43] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[44] + NET mac_result[44] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[45] + NET mac_result[45] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[46] + NET mac_result[46] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[47] + NET mac_result[47] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[48] + NET mac_result[48] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[49] + NET mac_result[49] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[4] + NET mac_result[4] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[50] + NET mac_result[50] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[51] + NET mac_result[51] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[52] + NET mac_result[52] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[53] + NET mac_result[53] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[54] + NET mac_result[54] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[55] + NET mac_result[55] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[56] + NET mac_result[56] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[57] + NET mac_result[57] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[58] + NET mac_result[58] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[59] + NET mac_result[59] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[5] + NET mac_result[5] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[60] + NET mac_result[60] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[61] + NET mac_result[61] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[62] + NET mac_result[62] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[63] + NET mac_result[63] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[6] + NET mac_result[6] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[7] + NET mac_result[7] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[8] + NET mac_result[8] + DIRECTION OUTPUT + USE SIGNAL ;
+    - mac_result[9] + NET mac_result[9] + DIRECTION OUTPUT + USE SIGNAL ;
+    - rst + NET rst + DIRECTION INPUT + USE SIGNAL ;
+    - spi_cs + NET spi_cs + DIRECTION OUTPUT + USE SIGNAL ;
+    - spi_miso + NET spi_miso + DIRECTION INPUT + USE SIGNAL ;
+    - spi_mosi + NET spi_mosi + DIRECTION OUTPUT + USE SIGNAL ;
+    - spi_sclk + NET spi_sclk + DIRECTION OUTPUT + USE SIGNAL ;
+    - timer_irq + NET timer_irq + DIRECTION OUTPUT + USE SIGNAL ;
+    - uart_rx + NET uart_rx + DIRECTION INPUT + USE SIGNAL ;
+    - uart_tx + NET uart_tx + DIRECTION OUTPUT + USE SIGNAL ;
+END PINS
+SPECIALNETS 2 ;
+    - VGND ( _79_ VNB ) ( _78_ VNB ) ( _77_ VNB ) ( _76_ VNB ) ( _75_ VNB ) ( _74_ VNB ) ( _73_ VNB )
+      ( _72_ VNB ) ( _71_ VNB ) ( _70_ VNB ) ( _69_ VNB ) ( _68_ VNB ) ( _67_ VNB ) ( _66_ VNB ) ( _65_ VNB )
+      ( _64_ VNB ) ( _63_ VNB ) ( _62_ VNB ) ( _61_ VNB ) ( _60_ VNB ) ( _59_ VNB ) ( _58_ VNB ) ( _57_ VNB )
+      ( _56_ VNB ) ( _55_ VNB ) ( _54_ VNB ) ( _53_ VNB ) ( _52_ VNB ) ( _51_ VNB ) ( _50_ VNB ) ( _49_ VNB )
+      ( _48_ VNB ) ( _47_ VNB ) ( _46_ VNB ) ( _45_ VNB ) ( _44_ VNB ) ( _43_ VNB ) ( _42_ VNB ) ( _41_ VNB )
+      ( _40_ VNB ) ( _39_ VNB ) ( _38_ VNB ) ( _37_ VNB ) ( _36_ VNB ) ( _35_ VNB ) ( _34_ VNB ) ( _33_ VNB )
+      ( _32_ VNB ) ( _31_ VNB ) ( _30_ VNB ) ( _29_ VNB ) ( _28_ VNB ) ( _27_ VNB ) ( _26_ VNB ) ( _25_ VNB )
+      ( _24_ VNB ) ( _23_ VNB ) ( _22_ VNB ) ( _21_ VNB ) ( _20_ VNB ) ( _19_ VNB ) ( _18_ VNB ) ( _17_ VNB )
+      ( _16_ VNB ) ( _15_ VNB ) ( _14_ VNB ) ( _13_ VNB ) ( _12_ VNB ) ( _11_ VNB ) ( _10_ VNB ) ( _09_ VNB )
+      ( _08_ VNB ) ( _07_ VNB ) ( _06_ VNB ) ( _05_ VNB ) ( _04_ VNB ) ( _03_ VNB ) ( _02_ VNB ) ( _01_ VNB )
+      ( _00_ VNB ) ( _79_ VGND ) ( _78_ VGND ) ( _77_ VGND ) ( _76_ VGND ) ( _75_ VGND ) ( _74_ VGND ) ( _73_ VGND )
+      ( _72_ VGND ) ( _71_ VGND ) ( _70_ VGND ) ( _69_ VGND ) ( _68_ VGND ) ( _67_ VGND ) ( _66_ VGND ) ( _65_ VGND )
+      ( _64_ VGND ) ( _63_ VGND ) ( _62_ VGND ) ( _61_ VGND ) ( _60_ VGND ) ( _59_ VGND ) ( _58_ VGND ) ( _57_ VGND )
+      ( _56_ VGND ) ( _55_ VGND ) ( _54_ VGND ) ( _53_ VGND ) ( _52_ VGND ) ( _51_ VGND ) ( _50_ VGND ) ( _49_ VGND )
+      ( _48_ VGND ) ( _47_ VGND ) ( _46_ VGND ) ( _45_ VGND ) ( _44_ VGND ) ( _43_ VGND ) ( _42_ VGND ) ( _41_ VGND )
+      ( _40_ VGND ) ( _39_ VGND ) ( _38_ VGND ) ( _37_ VGND ) ( _36_ VGND ) ( _35_ VGND ) ( _34_ VGND ) ( _33_ VGND )
+      ( _32_ VGND ) ( _31_ VGND ) ( _30_ VGND ) ( _29_ VGND ) ( _28_ VGND ) ( _27_ VGND ) ( _26_ VGND ) ( _25_ VGND )
+      ( _24_ VGND ) ( _23_ VGND ) ( _22_ VGND ) ( _21_ VGND ) ( _20_ VGND ) ( _19_ VGND ) ( _18_ VGND ) ( _17_ VGND )
+      ( _16_ VGND ) ( _15_ VGND ) ( _14_ VGND ) ( _13_ VGND ) ( _12_ VGND ) ( _11_ VGND ) ( _10_ VGND ) ( _09_ VGND )
+      ( _08_ VGND ) ( _07_ VGND ) ( _06_ VGND ) ( _05_ VGND ) ( _04_ VGND ) ( _03_ VGND ) ( _02_ VGND ) ( _01_ VGND )
+      ( _00_ VGND ) + USE GROUND ;
+    - VPWR ( _79_ VPB ) ( _78_ VPB ) ( _77_ VPB ) ( _76_ VPB ) ( _75_ VPB ) ( _74_ VPB ) ( _73_ VPB )
+      ( _72_ VPB ) ( _71_ VPB ) ( _70_ VPB ) ( _69_ VPB ) ( _68_ VPB ) ( _67_ VPB ) ( _66_ VPB ) ( _65_ VPB )
+      ( _64_ VPB ) ( _63_ VPB ) ( _62_ VPB ) ( _61_ VPB ) ( _60_ VPB ) ( _59_ VPB ) ( _58_ VPB ) ( _57_ VPB )
+      ( _56_ VPB ) ( _55_ VPB ) ( _54_ VPB ) ( _53_ VPB ) ( _52_ VPB ) ( _51_ VPB ) ( _50_ VPB ) ( _49_ VPB )
+      ( _48_ VPB ) ( _47_ VPB ) ( _46_ VPB ) ( _45_ VPB ) ( _44_ VPB ) ( _43_ VPB ) ( _42_ VPB ) ( _41_ VPB )
+      ( _40_ VPB ) ( _39_ VPB ) ( _38_ VPB ) ( _37_ VPB ) ( _36_ VPB ) ( _35_ VPB ) ( _34_ VPB ) ( _33_ VPB )
+      ( _32_ VPB ) ( _31_ VPB ) ( _30_ VPB ) ( _29_ VPB ) ( _28_ VPB ) ( _27_ VPB ) ( _26_ VPB ) ( _25_ VPB )
+      ( _24_ VPB ) ( _23_ VPB ) ( _22_ VPB ) ( _21_ VPB ) ( _20_ VPB ) ( _19_ VPB ) ( _18_ VPB ) ( _17_ VPB )
+      ( _16_ VPB ) ( _15_ VPB ) ( _14_ VPB ) ( _13_ VPB ) ( _12_ VPB ) ( _11_ VPB ) ( _10_ VPB ) ( _09_ VPB )
+      ( _08_ VPB ) ( _07_ VPB ) ( _06_ VPB ) ( _05_ VPB ) ( _04_ VPB ) ( _03_ VPB ) ( _02_ VPB ) ( _01_ VPB )
+      ( _00_ VPB ) ( _79_ VPWR ) ( _78_ VPWR ) ( _77_ VPWR ) ( _76_ VPWR ) ( _75_ VPWR ) ( _74_ VPWR ) ( _73_ VPWR )
+      ( _72_ VPWR ) ( _71_ VPWR ) ( _70_ VPWR ) ( _69_ VPWR ) ( _68_ VPWR ) ( _67_ VPWR ) ( _66_ VPWR ) ( _65_ VPWR )
+      ( _64_ VPWR ) ( _63_ VPWR ) ( _62_ VPWR ) ( _61_ VPWR ) ( _60_ VPWR ) ( _59_ VPWR ) ( _58_ VPWR ) ( _57_ VPWR )
+      ( _56_ VPWR ) ( _55_ VPWR ) ( _54_ VPWR ) ( _53_ VPWR ) ( _52_ VPWR ) ( _51_ VPWR ) ( _50_ VPWR ) ( _49_ VPWR )
+      ( _48_ VPWR ) ( _47_ VPWR ) ( _46_ VPWR ) ( _45_ VPWR ) ( _44_ VPWR ) ( _43_ VPWR ) ( _42_ VPWR ) ( _41_ VPWR )
+      ( _40_ VPWR ) ( _39_ VPWR ) ( _38_ VPWR ) ( _37_ VPWR ) ( _36_ VPWR ) ( _35_ VPWR ) ( _34_ VPWR ) ( _33_ VPWR )
+      ( _32_ VPWR ) ( _31_ VPWR ) ( _30_ VPWR ) ( _29_ VPWR ) ( _28_ VPWR ) ( _27_ VPWR ) ( _26_ VPWR ) ( _25_ VPWR )
+      ( _24_ VPWR ) ( _23_ VPWR ) ( _22_ VPWR ) ( _21_ VPWR ) ( _20_ VPWR ) ( _19_ VPWR ) ( _18_ VPWR ) ( _17_ VPWR )
+      ( _16_ VPWR ) ( _15_ VPWR ) ( _14_ VPWR ) ( _13_ VPWR ) ( _12_ VPWR ) ( _11_ VPWR ) ( _10_ VPWR ) ( _09_ VPWR )
+      ( _08_ VPWR ) ( _07_ VPWR ) ( _06_ VPWR ) ( _05_ VPWR ) ( _04_ VPWR ) ( _03_ VPWR ) ( _02_ VPWR ) ( _01_ VPWR )
+      ( _00_ VPWR ) + USE POWER ;
+END SPECIALNETS
+NETS 93 ;
+    - clk ( PIN clk ) ( _79_ A ) ( _78_ A ) + USE SIGNAL ;
+    - gpio_in[0] ( PIN gpio_in[0] ) + USE SIGNAL ;
+    - gpio_in[1] ( PIN gpio_in[1] ) + USE SIGNAL ;
+    - gpio_in[2] ( PIN gpio_in[2] ) + USE SIGNAL ;
+    - gpio_in[3] ( PIN gpio_in[3] ) + USE SIGNAL ;
+    - gpio_in[4] ( PIN gpio_in[4] ) + USE SIGNAL ;
+    - gpio_in[5] ( PIN gpio_in[5] ) + USE SIGNAL ;
+    - gpio_in[6] ( PIN gpio_in[6] ) + USE SIGNAL ;
+    - gpio_in[7] ( PIN gpio_in[7] ) + USE SIGNAL ;
+    - gpio_out[0] ( PIN gpio_out[0] ) ( _67_ LO ) + USE SIGNAL ;
+    - gpio_out[1] ( PIN gpio_out[1] ) ( _68_ LO ) + USE SIGNAL ;
+    - gpio_out[2] ( PIN gpio_out[2] ) ( _69_ LO ) + USE SIGNAL ;
+    - gpio_out[3] ( PIN gpio_out[3] ) ( _70_ LO ) + USE SIGNAL ;
+    - gpio_out[4] ( PIN gpio_out[4] ) ( _71_ LO ) + USE SIGNAL ;
+    - gpio_out[5] ( PIN gpio_out[5] ) ( _72_ LO ) + USE SIGNAL ;
+    - gpio_out[6] ( PIN gpio_out[6] ) ( _73_ LO ) + USE SIGNAL ;
+    - gpio_out[7] ( PIN gpio_out[7] ) ( _74_ LO ) + USE SIGNAL ;
+    - i2c_scl ( PIN i2c_scl ) ( _78_ X ) + USE SIGNAL ;
+    - i2c_sda_in ( PIN i2c_sda_in ) + USE SIGNAL ;
+    - i2c_sda_out ( PIN i2c_sda_out ) ( _66_ LO ) + USE SIGNAL ;
+    - mac_done ( PIN mac_done ) ( _76_ LO ) + USE SIGNAL ;
+    - mac_result[0] ( PIN mac_result[0] ) ( _00_ LO ) + USE SIGNAL ;
+    - mac_result[10] ( PIN mac_result[10] ) ( _10_ LO ) + USE SIGNAL ;
+    - mac_result[11] ( PIN mac_result[11] ) ( _11_ LO ) + USE SIGNAL ;
+    - mac_result[12] ( PIN mac_result[12] ) ( _12_ LO ) + USE SIGNAL ;
+    - mac_result[13] ( PIN mac_result[13] ) ( _13_ LO ) + USE SIGNAL ;
+    - mac_result[14] ( PIN mac_result[14] ) ( _14_ LO ) + USE SIGNAL ;
+    - mac_result[15] ( PIN mac_result[15] ) ( _15_ LO ) + USE SIGNAL ;
+    - mac_result[16] ( PIN mac_result[16] ) ( _16_ LO ) + USE SIGNAL ;
+    - mac_result[17] ( PIN mac_result[17] ) ( _17_ LO ) + USE SIGNAL ;
+    - mac_result[18] ( PIN mac_result[18] ) ( _18_ LO ) + USE SIGNAL ;
+    - mac_result[19] ( PIN mac_result[19] ) ( _19_ LO ) + USE SIGNAL ;
+    - mac_result[1] ( PIN mac_result[1] ) ( _01_ LO ) + USE SIGNAL ;
+    - mac_result[20] ( PIN mac_result[20] ) ( _20_ LO ) + USE SIGNAL ;
+    - mac_result[21] ( PIN mac_result[21] ) ( _21_ LO ) + USE SIGNAL ;
+    - mac_result[22] ( PIN mac_result[22] ) ( _22_ LO ) + USE SIGNAL ;
+    - mac_result[23] ( PIN mac_result[23] ) ( _23_ LO ) + USE SIGNAL ;
+    - mac_result[24] ( PIN mac_result[24] ) ( _24_ LO ) + USE SIGNAL ;
+    - mac_result[25] ( PIN mac_result[25] ) ( _25_ LO ) + USE SIGNAL ;
+    - mac_result[26] ( PIN mac_result[26] ) ( _26_ LO ) + USE SIGNAL ;
+    - mac_result[27] ( PIN mac_result[27] ) ( _27_ LO ) + USE SIGNAL ;
+    - mac_result[28] ( PIN mac_result[28] ) ( _28_ LO ) + USE SIGNAL ;
+    - mac_result[29] ( PIN mac_result[29] ) ( _29_ LO ) + USE SIGNAL ;
+    - mac_result[2] ( PIN mac_result[2] ) ( _02_ LO ) + USE SIGNAL ;
+    - mac_result[30] ( PIN mac_result[30] ) ( _30_ LO ) + USE SIGNAL ;
+    - mac_result[31] ( PIN mac_result[31] ) ( _31_ LO ) + USE SIGNAL ;
+    - mac_result[32] ( PIN mac_result[32] ) ( _32_ LO ) + USE SIGNAL ;
+    - mac_result[33] ( PIN mac_result[33] ) ( _33_ LO ) + USE SIGNAL ;
+    - mac_result[34] ( PIN mac_result[34] ) ( _34_ LO ) + USE SIGNAL ;
+    - mac_result[35] ( PIN mac_result[35] ) ( _35_ LO ) + USE SIGNAL ;
+    - mac_result[36] ( PIN mac_result[36] ) ( _36_ LO ) + USE SIGNAL ;
+    - mac_result[37] ( PIN mac_result[37] ) ( _37_ LO ) + USE SIGNAL ;
+    - mac_result[38] ( PIN mac_result[38] ) ( _38_ LO ) + USE SIGNAL ;
+    - mac_result[39] ( PIN mac_result[39] ) ( _39_ LO ) + USE SIGNAL ;
+    - mac_result[3] ( PIN mac_result[3] ) ( _03_ LO ) + USE SIGNAL ;
+    - mac_result[40] ( PIN mac_result[40] ) ( _40_ LO ) + USE SIGNAL ;
+    - mac_result[41] ( PIN mac_result[41] ) ( _41_ LO ) + USE SIGNAL ;
+    - mac_result[42] ( PIN mac_result[42] ) ( _42_ LO ) + USE SIGNAL ;
+    - mac_result[43] ( PIN mac_result[43] ) ( _43_ LO ) + USE SIGNAL ;
+    - mac_result[44] ( PIN mac_result[44] ) ( _44_ LO ) + USE SIGNAL ;
+    - mac_result[45] ( PIN mac_result[45] ) ( _45_ LO ) + USE SIGNAL ;
+    - mac_result[46] ( PIN mac_result[46] ) ( _46_ LO ) + USE SIGNAL ;
+    - mac_result[47] ( PIN mac_result[47] ) ( _47_ LO ) + USE SIGNAL ;
+    - mac_result[48] ( PIN mac_result[48] ) ( _48_ LO ) + USE SIGNAL ;
+    - mac_result[49] ( PIN mac_result[49] ) ( _49_ LO ) + USE SIGNAL ;
+    - mac_result[4] ( PIN mac_result[4] ) ( _04_ LO ) + USE SIGNAL ;
+    - mac_result[50] ( PIN mac_result[50] ) ( _50_ LO ) + USE SIGNAL ;
+    - mac_result[51] ( PIN mac_result[51] ) ( _51_ LO ) + USE SIGNAL ;
+    - mac_result[52] ( PIN mac_result[52] ) ( _52_ LO ) + USE SIGNAL ;
+    - mac_result[53] ( PIN mac_result[53] ) ( _53_ LO ) + USE SIGNAL ;
+    - mac_result[54] ( PIN mac_result[54] ) ( _54_ LO ) + USE SIGNAL ;
+    - mac_result[55] ( PIN mac_result[55] ) ( _55_ LO ) + USE SIGNAL ;
+    - mac_result[56] ( PIN mac_result[56] ) ( _56_ LO ) + USE SIGNAL ;
+    - mac_result[57] ( PIN mac_result[57] ) ( _57_ LO ) + USE SIGNAL ;
+    - mac_result[58] ( PIN mac_result[58] ) ( _58_ LO ) + USE SIGNAL ;
+    - mac_result[59] ( PIN mac_result[59] ) ( _59_ LO ) + USE SIGNAL ;
+    - mac_result[5] ( PIN mac_result[5] ) ( _05_ LO ) + USE SIGNAL ;
+    - mac_result[60] ( PIN mac_result[60] ) ( _60_ LO ) + USE SIGNAL ;
+    - mac_result[61] ( PIN mac_result[61] ) ( _61_ LO ) + USE SIGNAL ;
+    - mac_result[62] ( PIN mac_result[62] ) ( _62_ LO ) + USE SIGNAL ;
+    - mac_result[63] ( PIN mac_result[63] ) ( _63_ LO ) + USE SIGNAL ;
+    - mac_result[6] ( PIN mac_result[6] ) ( _06_ LO ) + USE SIGNAL ;
+    - mac_result[7] ( PIN mac_result[7] ) ( _07_ LO ) + USE SIGNAL ;
+    - mac_result[8] ( PIN mac_result[8] ) ( _08_ LO ) + USE SIGNAL ;
+    - mac_result[9] ( PIN mac_result[9] ) ( _09_ LO ) + USE SIGNAL ;
+    - rst ( PIN rst ) + USE SIGNAL ;
+    - spi_cs ( PIN spi_cs ) ( _64_ LO ) + USE SIGNAL ;
+    - spi_miso ( PIN spi_miso ) + USE SIGNAL ;
+    - spi_mosi ( PIN spi_mosi ) ( _65_ LO ) + USE SIGNAL ;
+    - spi_sclk ( PIN spi_sclk ) ( _79_ X ) + USE SIGNAL ;
+    - timer_irq ( PIN timer_irq ) ( _75_ LO ) + USE SIGNAL ;
+    - uart_rx ( PIN uart_rx ) + USE SIGNAL ;
+    - uart_tx ( PIN uart_tx ) ( _77_ LO ) + USE SIGNAL ;
+END NETS
+END DESIGN

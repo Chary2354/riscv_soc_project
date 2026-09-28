@@ -1,0 +1,432 @@
+[
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VPWR",
+        "VGND",
+        "VPB",
+        "VNB"
+      ], [
+        "VPWR",
+        "VGND",
+        "VPB",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VPWR"
+      ], [
+        "VGND",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "HI",
+        "LO"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "HI",
+        "LO"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ], [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ], [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ], [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "soc_top",
+      "soc_top"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_sc_hd__fill_1", 1],
+         ["sky130_fd_sc_hd__decap_6", 1],
+         ["sky130_ef_sc_hd__decap_12", 1],
+         ["sky130_fd_sc_hd__tapvpwrvgnd_1", 1],
+         ["sky130_fd_sc_hd__decap_8", 1],
+         ["sky130_fd_sc_hd__decap_4", 1],
+         ["sky130_fd_sc_hd__conb_1", 78],
+         ["sky130_fd_sc_hd__decap_3", 1],
+         ["sky130_fd_sc_hd__fill_2", 1],
+         ["sky130_fd_sc_hd__clkbuf_16", 3],
+         ["sky130_fd_sc_hd__buf_2", 2],
+         ["sky130_fd_sc_hd__buf_1", 2 ]
+       ], [
+         ["sky130_fd_sc_hd__fill_1", 1 ],
+         ["sky130_fd_sc_hd__decap_6", 1 ],
+         ["sky130_ef_sc_hd__decap_12", 1 ],
+         ["sky130_fd_sc_hd__tapvpwrvgnd_1", 1 ],
+         ["sky130_fd_sc_hd__decap_8", 1 ],
+         ["sky130_fd_sc_hd__decap_4", 1 ],
+         ["sky130_fd_sc_hd__conb_1", 78 ],
+         ["sky130_fd_sc_hd__decap_3", 1 ],
+         ["sky130_fd_sc_hd__fill_2", 1 ],
+         ["sky130_fd_sc_hd__clkbuf_16", 3 ],
+         ["sky130_fd_sc_hd__buf_2", 2 ],
+         ["sky130_fd_sc_hd__buf_1", 2 ]
+       ]
+   ],
+   "nets": [
+    166,
+    166
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "clk",
+        "spi_sclk",
+        "i2c_scl",
+        "timer_irq",
+        "spi_cs",
+        "mac_result[53]",
+        "mac_result[42]",
+        "mac_result[31]",
+        "mac_result[9]",
+        "mac_result[20]",
+        "gpio_out[7]",
+        "mac_result[63]",
+        "mac_result[52]",
+        "mac_result[41]",
+        "mac_result[30]",
+        "mac_result[19]",
+        "mac_result[8]",
+        "mac_result[62]",
+        "gpio_out[6]",
+        "mac_result[51]",
+        "mac_result[18]",
+        "mac_result[29]",
+        "mac_result[7]",
+        "mac_result[40]",
+        "mac_result[50]",
+        "mac_result[61]",
+        "gpio_out[5]",
+        "mac_result[39]",
+        "mac_result[28]",
+        "mac_result[17]",
+        "gpio_out[4]",
+        "mac_result[60]",
+        "mac_result[38]",
+        "mac_result[49]",
+        "mac_result[27]",
+        "gpio_out[3]",
+        "mac_result[59]",
+        "mac_result[48]",
+        "mac_result[37]",
+        "gpio_out[2]",
+        "mac_result[58]",
+        "mac_result[47]",
+        "gpio_out[1]",
+        "mac_result[57]",
+        "gpio_out[0]",
+        "uart_tx",
+        "mac_result[6]",
+        "mac_result[5]",
+        "mac_result[4]",
+        "mac_result[3]",
+        "mac_result[2]",
+        "mac_result[1]",
+        "mac_result[0]",
+        "mac_result[16]",
+        "mac_result[26]",
+        "mac_result[15]",
+        "mac_result[36]",
+        "mac_result[14]",
+        "mac_result[25]",
+        "mac_result[46]",
+        "mac_result[35]",
+        "mac_result[24]",
+        "mac_result[13]",
+        "mac_result[56]",
+        "mac_result[45]",
+        "mac_result[34]",
+        "mac_result[23]",
+        "mac_result[12]",
+        "i2c_sda_out",
+        "mac_result[44]",
+        "mac_result[55]",
+        "mac_result[33]",
+        "mac_result[11]",
+        "mac_result[22]",
+        "mac_done",
+        "spi_mosi",
+        "mac_result[43]",
+        "mac_result[32]",
+        "mac_result[54]",
+        "mac_result[21]",
+        "mac_result[10]",
+        "VGND",
+        "VPWR",
+        "gpio_in[0]",
+        "gpio_in[1]",
+        "gpio_in[2]",
+        "gpio_in[3]",
+        "gpio_in[4]",
+        "gpio_in[5]",
+        "gpio_in[6]",
+        "gpio_in[7]",
+        "i2c_sda_in",
+        "rst",
+        "spi_miso",
+        "uart_rx"
+      ], [
+        "clk",
+        "spi_sclk",
+        "i2c_scl",
+        "timer_irq",
+        "spi_cs",
+        "mac_result[53]",
+        "mac_result[42]",
+        "mac_result[31]",
+        "mac_result[9]",
+        "mac_result[20]",
+        "gpio_out[7]",
+        "mac_result[63]",
+        "mac_result[52]",
+        "mac_result[41]",
+        "mac_result[30]",
+        "mac_result[19]",
+        "mac_result[8]",
+        "mac_result[62]",
+        "gpio_out[6]",
+        "mac_result[51]",
+        "mac_result[18]",
+        "mac_result[29]",
+        "mac_result[7]",
+        "mac_result[40]",
+        "mac_result[50]",
+        "mac_result[61]",
+        "gpio_out[5]",
+        "mac_result[39]",
+        "mac_result[28]",
+        "mac_result[17]",
+        "gpio_out[4]",
+        "mac_result[60]",
+        "mac_result[38]",
+        "mac_result[49]",
+        "mac_result[27]",
+        "gpio_out[3]",
+        "mac_result[59]",
+        "mac_result[48]",
+        "mac_result[37]",
+        "gpio_out[2]",
+        "mac_result[58]",
+        "mac_result[47]",
+        "gpio_out[1]",
+        "mac_result[57]",
+        "gpio_out[0]",
+        "uart_tx",
+        "mac_result[6]",
+        "mac_result[5]",
+        "mac_result[4]",
+        "mac_result[3]",
+        "mac_result[2]",
+        "mac_result[1]",
+        "mac_result[0]",
+        "mac_result[16]",
+        "mac_result[26]",
+        "mac_result[15]",
+        "mac_result[36]",
+        "mac_result[14]",
+        "mac_result[25]",
+        "mac_result[46]",
+        "mac_result[35]",
+        "mac_result[24]",
+        "mac_result[13]",
+        "mac_result[56]",
+        "mac_result[45]",
+        "mac_result[34]",
+        "mac_result[23]",
+        "mac_result[12]",
+        "i2c_sda_out",
+        "mac_result[44]",
+        "mac_result[55]",
+        "mac_result[33]",
+        "mac_result[11]",
+        "mac_result[22]",
+        "mac_done",
+        "spi_mosi",
+        "mac_result[43]",
+        "mac_result[32]",
+        "mac_result[54]",
+        "mac_result[21]",
+        "mac_result[10]",
+        "VGND",
+        "VPWR",
+        "gpio_in[0]",
+        "gpio_in[1]",
+        "gpio_in[2]",
+        "gpio_in[3]",
+        "gpio_in[4]",
+        "gpio_in[5]",
+        "gpio_in[6]",
+        "gpio_in[7]",
+        "i2c_sda_in",
+        "rst",
+        "spi_miso",
+        "uart_rx"
+      ]
+   ]
+  }
+]

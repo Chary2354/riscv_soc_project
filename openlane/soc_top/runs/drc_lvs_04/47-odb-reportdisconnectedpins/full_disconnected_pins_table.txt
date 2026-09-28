@@ -1,0 +1,85 @@
+┏━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Macro/Instance ┃ Power Pins ┃ Disconnected ┃ Signal Pins    ┃ Disconnected ┃
+┡━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━┩
+│ soc_top        │ VPWR       │              │ clk            │ gpio_in[0]   │
+│                │ VGND       │              │ gpio_out[0]    │ gpio_in[1]   │
+│                │            │              │ gpio_out[1]    │ gpio_in[2]   │
+│                │            │              │ gpio_out[2]    │ gpio_in[3]   │
+│                │            │              │ gpio_out[3]    │ gpio_in[4]   │
+│                │            │              │ gpio_out[4]    │ gpio_in[5]   │
+│                │            │              │ gpio_out[5]    │ gpio_in[6]   │
+│                │            │              │ gpio_out[6]    │ gpio_in[7]   │
+│                │            │              │ gpio_out[7]    │ i2c_sda_in   │
+│                │            │              │ i2c_scl        │ rst          │
+│                │            │              │ i2c_sda_out    │ spi_miso     │
+│                │            │              │ mac_done       │ uart_rx      │
+│                │            │              │ mac_result[0]  │              │
+│                │            │              │ mac_result[10] │              │
+│                │            │              │ mac_result[11] │              │
+│                │            │              │ mac_result[12] │              │
+│                │            │              │ mac_result[13] │              │
+│                │            │              │ mac_result[14] │              │
+│                │            │              │ mac_result[15] │              │
+│                │            │              │ mac_result[16] │              │
+│                │            │              │ mac_result[17] │              │
+│                │            │              │ mac_result[18] │              │
+│                │            │              │ mac_result[19] │              │
+│                │            │              │ mac_result[1]  │              │
+│                │            │              │ mac_result[20] │              │
+│                │            │              │ mac_result[21] │              │
+│                │            │              │ mac_result[22] │              │
+│                │            │              │ mac_result[23] │              │
+│                │            │              │ mac_result[24] │              │
+│                │            │              │ mac_result[25] │              │
+│                │            │              │ mac_result[26] │              │
+│                │            │              │ mac_result[27] │              │
+│                │            │              │ mac_result[28] │              │
+│                │            │              │ mac_result[29] │              │
+│                │            │              │ mac_result[2]  │              │
+│                │            │              │ mac_result[30] │              │
+│                │            │              │ mac_result[31] │              │
+│                │            │              │ mac_result[32] │              │
+│                │            │              │ mac_result[33] │              │
+│                │            │              │ mac_result[34] │              │
+│                │            │              │ mac_result[35] │              │
+│                │            │              │ mac_result[36] │              │
+│                │            │              │ mac_result[37] │              │
+│                │            │              │ mac_result[38] │              │
+│                │            │              │ mac_result[39] │              │
+│                │            │              │ mac_result[3]  │              │
+│                │            │              │ mac_result[40] │              │
+│                │            │              │ mac_result[41] │              │
+│                │            │              │ mac_result[42] │              │
+│                │            │              │ mac_result[43] │              │
+│                │            │              │ mac_result[44] │              │
+│                │            │              │ mac_result[45] │              │
+│                │            │              │ mac_result[46] │              │
+│                │            │              │ mac_result[47] │              │
+│                │            │              │ mac_result[48] │              │
+│                │            │              │ mac_result[49] │              │
+│                │            │              │ mac_result[4]  │              │
+│                │            │              │ mac_result[50] │              │
+│                │            │              │ mac_result[51] │              │
+│                │            │              │ mac_result[52] │              │
+│                │            │              │ mac_result[53] │              │
+│                │            │              │ mac_result[54] │              │
+│                │            │              │ mac_result[55] │              │
+│                │            │              │ mac_result[56] │              │
+│                │            │              │ mac_result[57] │              │
+│                │            │              │ mac_result[58] │              │
+│                │            │              │ mac_result[59] │              │
+│                │            │              │ mac_result[5]  │              │
+│                │            │              │ mac_result[60] │              │
+│                │            │              │ mac_result[61] │              │
+│                │            │              │ mac_result[62] │              │
+│                │            │              │ mac_result[63] │              │
+│                │            │              │ mac_result[6]  │              │
+│                │            │              │ mac_result[7]  │              │
+│                │            │              │ mac_result[8]  │              │
+│                │            │              │ mac_result[9]  │              │
+│                │            │              │ spi_cs         │              │
+│                │            │              │ spi_mosi       │              │
+│                │            │              │ spi_sclk       │              │
+│                │            │              │ timer_irq      │              │
+│                │            │              │ uart_tx        │              │
+└────────────────┴────────────┴──────────────┴────────────────┴──────────────┘

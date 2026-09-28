@@ -1,0 +1,240 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: clk (clock source 'clk')
+Endpoint: spi_sclk (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  5.000000    5.000000   clock clk (fall edge)
+                                  0.000000    5.000000   clock source latency
+     2    0.008751    0.021776    0.014219    5.014219 v clk (in)
+                                                         clk (net)
+                      0.021777    0.000000    5.014219 v _79_/A (sky130_fd_sc_hd__buf_2)
+     1    0.034779    0.090588    0.171386    5.185605 v _79_/X (sky130_fd_sc_hd__buf_2)
+                                                         spi_sclk (net)
+                      0.090588    0.000287    5.185892 v spi_sclk (out)
+                                              5.185892   data arrival time
+
+                                 10.000000   10.000000   clock clk (rise edge)
+                                  0.000000   10.000000   clock network delay (propagated)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -5.185892   data arrival time
+---------------------------------------------------------------------------------------------
+                                              2.564108   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 90 unannotated drivers.
+ gpio_in[0]
+ gpio_in[1]
+ gpio_in[2]
+ gpio_in[3]
+ gpio_in[4]
+ gpio_in[5]
+ gpio_in[6]
+ gpio_in[7]
+ i2c_sda_in
+ rst
+ spi_miso
+ uart_rx
+ _00_/HI
+ _01_/HI
+ _02_/HI
+ _03_/HI
+ _04_/HI
+ _05_/HI
+ _06_/HI
+ _07_/HI
+ _08_/HI
+ _09_/HI
+ _10_/HI
+ _11_/HI
+ _12_/HI
+ _13_/HI
+ _14_/HI
+ _15_/HI
+ _16_/HI
+ _17_/HI
+ _18_/HI
+ _19_/HI
+ _20_/HI
+ _21_/HI
+ _22_/HI
+ _23_/HI
+ _24_/HI
+ _25_/HI
+ _26_/HI
+ _27_/HI
+ _28_/HI
+ _29_/HI
+ _30_/HI
+ _31_/HI
+ _32_/HI
+ _33_/HI
+ _34_/HI
+ _35_/HI
+ _36_/HI
+ _37_/HI
+ _38_/HI
+ _39_/HI
+ _40_/HI
+ _41_/HI
+ _42_/HI
+ _43_/HI
+ _44_/HI
+ _45_/HI
+ _46_/HI
+ _47_/HI
+ _48_/HI
+ _49_/HI
+ _50_/HI
+ _51_/HI
+ _52_/HI
+ _53_/HI
+ _54_/HI
+ _55_/HI
+ _56_/HI
+ _57_/HI
+ _58_/HI
+ _59_/HI
+ _60_/HI
+ _61_/HI
+ _62_/HI
+ _63_/HI
+ _64_/HI
+ _65_/HI
+ _66_/HI
+ _67_/HI
+ _68_/HI
+ _69_/HI
+ _70_/HI
+ _71_/HI
+ _72_/HI
+ _73_/HI
+ _74_/HI
+ _75_/HI
+ _76_/HI
+ _77_/HI
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+Writing metric design__max_slew_violation__count__corner:nom_tt_025C_1v80: 0
+max fanout violation count 0
+Writing metric design__max_fanout_violation__count__corner:nom_tt_025C_1v80: 0
+max cap violation count 0
+Writing metric design__max_cap_violation__count__corner:nom_tt_025C_1v80: 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 78 unconstrained endpoints.
+  gpio_out[0]
+  gpio_out[1]
+  gpio_out[2]
+  gpio_out[3]
+  gpio_out[4]
+  gpio_out[5]
+  gpio_out[6]
+  gpio_out[7]
+  i2c_sda_out
+  mac_done
+  mac_result[0]
+  mac_result[10]
+  mac_result[11]
+  mac_result[12]
+  mac_result[13]
+  mac_result[14]
+  mac_result[15]
+  mac_result[16]
+  mac_result[17]
+  mac_result[18]
+  mac_result[19]
+  mac_result[1]
+  mac_result[20]
+  mac_result[21]
+  mac_result[22]
+  mac_result[23]
+  mac_result[24]
+  mac_result[25]
+  mac_result[26]
+  mac_result[27]
+  mac_result[28]
+  mac_result[29]
+  mac_result[2]
+  mac_result[30]
+  mac_result[31]
+  mac_result[32]
+  mac_result[33]
+  mac_result[34]
+  mac_result[35]
+  mac_result[36]
+  mac_result[37]
+  mac_result[38]
+  mac_result[39]
+  mac_result[3]
+  mac_result[40]
+  mac_result[41]
+  mac_result[42]
+  mac_result[43]
+  mac_result[44]
+  mac_result[45]
+  mac_result[46]
+  mac_result[47]
+  mac_result[48]
+  mac_result[49]
+  mac_result[4]
+  mac_result[50]
+  mac_result[51]
+  mac_result[52]
+  mac_result[53]
+  mac_result[54]
+  mac_result[55]
+  mac_result[56]
+  mac_result[57]
+  mac_result[58]
+  mac_result[59]
+  mac_result[5]
+  mac_result[60]
+  mac_result[61]
+  mac_result[62]
+  mac_result[63]
+  mac_result[6]
+  mac_result[7]
+  mac_result[8]
+  mac_result[9]
+  spi_cs
+  spi_mosi
+  timer_irq
+  uart_tx
