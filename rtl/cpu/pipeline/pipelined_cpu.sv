@@ -346,14 +346,16 @@ module pipelined_cpu (
     // MEMORY STAGE
     // =========================================================
 
-    mem_stage u_mem (
+   logic [31:0] internal_mem_read_data;
+
+   mem_stage u_mem (
         .clk      (clk),
         .rst      (rst),
         .mem_read (mem_mem_read),
         .mem_write(mem_mem_write),
         .address  (mem_alu_result),
         .write_data(mem_store_data),
-        .read_data(mem_read_data)
+        .read_data(internal_mem_read_data)
     );
 
     assign mem_read      = mem_mem_read;
